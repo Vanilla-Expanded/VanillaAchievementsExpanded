@@ -12,8 +12,9 @@ namespace AchievementsExpanded
 		public ThingDef def;
 		public ThingDef madeFrom;
 		public int count = 1;
+        public QualityCategory? quality;
 
-		protected int triggeredCount;
+        protected int triggeredCount;
 		protected HashSet<string> registeredBuildings;
 
 	
@@ -36,7 +37,8 @@ namespace AchievementsExpanded
 			madeFrom = reference.madeFrom;
 			count = reference.count;
 			triggeredCount = 0;
-			registeredBuildings = new HashSet<string>();
+            quality = reference.quality;
+            registeredBuildings = new HashSet<string>();
 		}
 
 		public override void ExposeData()
@@ -46,8 +48,8 @@ namespace AchievementsExpanded
 			Scribe_Defs.Look(ref madeFrom, "madeFrom");
 			Scribe_Values.Look(ref count, "count", 1);
 			Scribe_Values.Look(ref triggeredCount, "triggeredCount");
-
-			Scribe_Collections.Look(ref registeredBuildings, "registeredBuildings");
+            Scribe_Values.Look(ref quality, "quality");
+            Scribe_Collections.Look(ref registeredBuildings, "registeredBuildings");
 		}
 
 		public override (float percent, string text) PercentComplete => count > 1 ? ((float)triggeredCount / count, $"{triggeredCount} / {count}") : base.PercentComplete;
@@ -55,7 +57,7 @@ namespace AchievementsExpanded
 		public override bool Trigger(Building building)
 		{
 			base.Trigger(building);
-			if (building.Faction ==  Faction.OfPlayer && (def is null || def == building.def) && (madeFrom is null || madeFrom == building.Stuff))
+			if (building.Faction ==  Faction.OfPlayer && (def is null || def == building.def) && (madeFrom is null || madeFrom == building.Stuff) && quality is null || (building.TryGetQuality(out var qc) && qc >= quality))
 			{
 				if (!registeredBuildings.Add(building.GetUniqueLoadID()))
 				{

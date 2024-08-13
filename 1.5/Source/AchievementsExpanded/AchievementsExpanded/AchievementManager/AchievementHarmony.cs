@@ -870,6 +870,35 @@ namespace AchievementsExpanded
         }
 
         /// <summary>
+        /// Thought initialized event
+        /// </summary>
+        /// <param name="__instance"></param>
+		
+
+        public static void ThoughtInitialized(Thought_Memory newThought)
+        {
+            if (Current.ProgramState == ProgramState.Playing)
+            {
+                foreach (var card in AchievementPointManager.GetCards<ThoughtTracker>())
+                {
+                    try
+                    {
+
+                        if ((card.tracker as ThoughtTracker).Trigger(newThought))
+                        {
+                            card.UnlockCard();
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Log.Error($"Unable to trigger event for card validation. To avoid further errors {card.def.LabelCap} has been automatically unlocked.\n\nException={ex.Message}");
+                        card.UnlockCard();
+                    }
+                }
+            }
+        }
+
+        /// <summary>
         /// Royalty Title Set Event
         /// </summary>
         /// <param name="__instance"></param>

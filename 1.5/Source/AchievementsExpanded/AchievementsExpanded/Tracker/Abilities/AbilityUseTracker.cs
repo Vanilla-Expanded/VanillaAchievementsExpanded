@@ -24,7 +24,8 @@ namespace AchievementsExpanded
         public float targetBelowHealthPercentage;
         public bool targetOnFire = false;
         public bool targetManhunter = false;
-
+        public ThingDef targetApparelDef;
+        public bool targetHostile = false;
 
         [Unsaved]
         protected float triggeredCount;
@@ -47,6 +48,8 @@ namespace AchievementsExpanded
                                                                 $"targetOnFire: {targetOnFire}",
                                                                 $"targetManhunter: {targetManhunter}",
                                                                 $"onlyPlayerFaction: {onlyPlayerFaction}",
+                                                                 $"targetHostile: {targetHostile}",
+                                                                $"targetApparelDef: {targetApparelDef?.defName ?? "None"}",
                                                                 $"Count: {count}", $"Current: {triggeredCount}" };
 
         public AbilityUseTracker()
@@ -68,8 +71,9 @@ namespace AchievementsExpanded
             targetOnFire = reference.targetOnFire;
             targetBelowHealthPercentage = reference.targetBelowHealthPercentage;
             targetManhunter = reference.targetManhunter;
+            targetHostile = reference.targetHostile;
             checkTargetOnlyOfPlayerFaction = reference.checkTargetOnlyOfPlayerFaction;
-
+            targetApparelDef = reference.targetApparelDef;
             if (count <= 0)
                 count = 1;
 
@@ -96,6 +100,8 @@ namespace AchievementsExpanded
             Scribe_Values.Look(ref targetFactionTechLevel, "targetFactionTechLevel");
             Scribe_Values.Look(ref checkTargetOnlyOfPlayerFaction, "checkTargetOnlyOfPlayerFaction", false);
             Scribe_Values.Look(ref targetManhunter, "targetManhunter", false);
+            Scribe_Values.Look(ref targetHostile, "targetHostile", false);
+            Scribe_Defs.Look(ref targetApparelDef, "targetApparelDef");
         }
 
         public override (float percent, string text) PercentComplete =>  count > 1 ? (triggeredCount / count, $"{triggeredCount} / {count}") : base.PercentComplete;
@@ -121,9 +127,11 @@ namespace AchievementsExpanded
             bool onFire = !targetOnFire || target.Pawn?.IsBurning()==true;
             bool techlevel = targetFactionTechLevel is null || target.Pawn?.Faction?.def?.techLevel == targetFactionTechLevel;
             bool targetFaction = !checkTargetOnlyOfPlayerFaction || target.Pawn?.Faction == Faction.OfPlayerSilentFail;
+            bool hostile = !targetHostile || target.Pawn?.HostileTo(caster) == true;
             bool manhunter = !targetManhunter || target.Pawn?.InAggroMentalState == true;
+            bool wearingApparel = targetApparelDef is null || UtilityMethods.IsWearing(target.Pawn, targetApparelDef);
 
-            return abilitiesDetected && abilityDetected && casterDef && targetFaction && targetDef && targetDefs && techlevel && belowHealth && onFire && manhunter && (count <= 1 || ++triggeredCount >= count);
+            return abilitiesDetected && abilityDetected && wearingApparel && casterDef && targetFaction && targetDef && targetDefs && techlevel && belowHealth && onFire && manhunter&& hostile && (count <= 1 || ++triggeredCount >= count);
 
 
         }

@@ -105,7 +105,7 @@ namespace AchievementsExpanded
             bool food = foodDef is null || thingIngested.def == foodDef;
             bool corpse = !checkIfCorpse || thingIngested as Corpse != null;
             bool tree = !checkIfTree || thingIngested.def?.plant?.IsTree == true;
-            bool foodQuality = quality is null || thingIngested.TryGetComp<CompQuality>()?.Quality == quality;
+            bool foodQuality = quality is null || thingIngested.TryGetComp<CompQuality>()?.Quality >= quality;
             bool includeIngredient = includeIngredientDef is null || thingIngested.TryGetComp<CompIngredients>()?.ingredients?.Contains(includeIngredientDef)==true;
 
             return ingestorRace && ingestorRaces && food && tree && corpse && foodQuality && includeIngredient && (count <= 1 || ++triggeredCount >= count);

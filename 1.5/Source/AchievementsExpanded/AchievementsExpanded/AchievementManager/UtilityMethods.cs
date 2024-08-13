@@ -337,5 +337,22 @@ namespace AchievementsExpanded
             if (pawn.genes is null) return false;
             return pawn.genes.GetGene(geneDef)?.Active ?? false;
         }
+
+        public static bool IsWearing(Pawn pawn,ThingDef apparel)
+        {
+            if(pawn?.apparel is null)
+            {
+                return false;
+            }
+
+            foreach (Apparel item in pawn.apparel.WornApparel)
+            {
+                if (item.def == apparel)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
     }
 }

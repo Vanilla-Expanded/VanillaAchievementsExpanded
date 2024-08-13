@@ -18,6 +18,7 @@ namespace AchievementsExpanded
 		public XenotypeDef xenotypeDef;
 		public ThingDef instigatorThingDef;
         public ThingDef weaponDef;
+        public ThingDef targetApparelDef;
 
         protected int triggeredCount;
 		protected List<string> killedThings;
@@ -37,6 +38,7 @@ namespace AchievementsExpanded
                                                                 $"xenotypeDef: {xenotypeDef?.defName ?? "None"}",
                                                                 $"instigatorThingDef: {instigatorThingDef?.defName ?? "None"}",
                                                                 $"weaponDef: {weaponDef?.defName ?? "None"}",
+                                                                $"targetApparelDef: {targetApparelDef?.defName ?? "None"}",
                                                                 $"Factions: {factionDefs?.Count.ToString() ?? "None"}",
 																$"Instigators: {instigatorFactionDefs?.Count.ToString() ?? "None"}",
 																$"Count: {count}", $"Current: {triggeredCount}" };
@@ -56,7 +58,7 @@ namespace AchievementsExpanded
             xenotypeDef = reference.xenotypeDef;
             instigatorThingDef = reference.instigatorThingDef;
             weaponDef = reference.weaponDef;
-
+            targetApparelDef = reference.targetApparelDef;
             triggeredCount = 0;
 
 			killedThings = new List<string>();
@@ -70,6 +72,7 @@ namespace AchievementsExpanded
             Scribe_Defs.Look(ref xenotypeDef, "xenotypeDef");
             Scribe_Defs.Look(ref instigatorThingDef, "instigatorThingDef");
             Scribe_Defs.Look(ref weaponDef, "weaponDef");
+            Scribe_Defs.Look(ref targetApparelDef, "targetApparelDef");
             Scribe_Collections.Look(ref factionDefs, "factionDefs", LookMode.Def);
 			Scribe_Collections.Look(ref instigatorFactionDefs, "instigatorFactionDefs", LookMode.Def);
 			Scribe_Values.Look(ref count, "count", 1);
@@ -87,14 +90,16 @@ namespace AchievementsExpanded
 				return false;
 			else
 				killedThings.Add(pawn.GetUniqueLoadID());
-			bool instigator = instigatorFactionDefs.NullOrEmpty() || (dinfo?.Instigator?.Faction?.def != null && instigatorFactionDefs.Contains(dinfo.Value.Instigator.Faction.def));
+			bool instigator = instigatorFactionDefs.NullOrEmpty() || (dinfo?.Instigator?.Faction?.def != null && instigatorFactionDefs.Contains(dinfo.Value.Instigator.Faction.def)); 
             bool kind = kindDef is null || pawn.kindDef == kindDef;
             bool instigatorThing = instigatorThingDef is null || dinfo?.Instigator?.def == instigatorThingDef;
 			bool weapon = weaponDef is null || dinfo?.Weapon == weaponDef;
+            bool wearingApparel = targetApparelDef is null || UtilityMethods.IsWearing(pawn, targetApparelDef);
             bool race = raceDef is null || pawn.def == raceDef;
 			bool xenotype = xenotypeDef is null || pawn.genes?.Xenotype == xenotypeDef;
+
 			bool faction = factionDefs.NullOrEmpty() || (pawn.Faction != null && factionDefs.Contains(pawn.Faction.def));
-			return kind && weapon && xenotype && instigatorThing && race && faction && instigator && (count <= 1 || ++triggeredCount >= count);
+			return kind && weapon && wearingApparel && xenotype && instigatorThing && race && faction && instigator && (count <= 1 || ++triggeredCount >= count);
 		}
 	}
 }

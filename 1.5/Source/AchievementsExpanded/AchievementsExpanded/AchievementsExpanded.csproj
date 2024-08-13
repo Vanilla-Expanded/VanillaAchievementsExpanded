@@ -14,13 +14,14 @@
     <Deterministic>false</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\..\v1.4\Assemblies\</OutputPath>
+    <OutputPath>..\..\..\Assemblies\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>7.3</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>none</DebugType>
@@ -145,6 +146,7 @@
     <Compile Include="Tracker\Kill\KillTracker.cs" />
     <Compile Include="Tracker\Base\Tracker2.cs" />
     <Compile Include="Tracker\Base\Tracker3.cs" />
+    <Compile Include="Tracker\Thoughts\ThoughtTracker.cs" />
     <Compile Include="UI\AchievementNotification.cs" />
     <Compile Include="AchievementManager\AchievementPointManager.cs" />
     <Compile Include="AchievementCard\AchievementTabDef.cs" />
