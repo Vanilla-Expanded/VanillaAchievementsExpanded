@@ -78,9 +78,9 @@ namespace AchievementsExpanded
 			if (total)
 			{
 				triggeredCount = 0;
-				foreach (Pawn pawn2 in PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_OfPlayerFaction)
+				foreach (ColonistBar.Entry pawn2 in Find.ColonistBar.Entries)
 				{
-					triggeredCount += pawn2.records.GetValue(record);
+					triggeredCount += pawn2.pawn.records.GetValue(record);
 					if (triggeredCount >= count)
 						return true;
 				}

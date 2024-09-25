@@ -42,9 +42,9 @@ namespace AchievementsExpanded
 				{
 					return Trigger(def, null, 0);
 				}
-				foreach (Pawn pawn in PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_OfPlayerFaction)
+				foreach (ColonistBar.Entry pawn in Find.ColonistBar.Entries)
 				{
-					if (Trigger(def, pawn, 0))
+					if (Trigger(def, pawn.pawn, 0))
 					{
 						return true;
 					}
