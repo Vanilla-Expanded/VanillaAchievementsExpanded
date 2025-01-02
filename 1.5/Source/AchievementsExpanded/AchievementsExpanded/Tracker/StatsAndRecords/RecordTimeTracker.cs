@@ -42,14 +42,15 @@ namespace AchievementsExpanded
 				{
 					return Trigger(def, null, 0);
 				}
-				foreach (ColonistBar.Entry pawn in Find.ColonistBar.Entries)
+				foreach (Pawn pawn in StaticCollections.colonyPawns)
 				{
-					if (Trigger(def, pawn.pawn, 0))
+					if (Trigger(def, pawn, 0))
 					{
 						return true;
 					}
 				}
-				return false;
+              
+                return false;
 			}
 		}
 
@@ -73,7 +74,7 @@ namespace AchievementsExpanded
 				float value = next;
 				foreach (Map map in Find.Maps)
 				{
-					foreach (Pawn pawn2 in map.mapPawns.FreeColonists)
+					foreach (Pawn pawn2 in StaticCollections.colonyPawns)
 					{
 						value += pawn2.records.GetValue(record);
 						if (value >= count)

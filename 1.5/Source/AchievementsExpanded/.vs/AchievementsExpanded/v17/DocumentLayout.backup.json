@@ -1,0 +1,1135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\vanillaachievementsexpanded\\1.5\\source\\achievementsexpanded\\achievementsexpanded\\gamecomponents\\gamecomponent_pawncache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\gamecomponents\\gamecomponent_pawncache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\biotech\\xenotypedeftracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\biotech\\xenotypedeftracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\abilities\\abilitycounttracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\abilities\\abilitycounttracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\statsandrecords\\wealthtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\statsandrecords\\wealthtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\statsandrecords\\tradertracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\statsandrecords\\tradertracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\statsandrecords\\timetracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\statsandrecords\\timetracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\statsandrecords\\skilltracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\statsandrecords\\skilltracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\statsandrecords\\multirecordeventtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\statsandrecords\\multirecordeventtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\statsandrecords\\recordtimetracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\statsandrecords\\recordtimetracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\vanillaachievementsexpanded\\1.5\\source\\achievementsexpanded\\achievementsexpanded\\tracker\\statsandrecords\\recordeventtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\statsandrecords\\recordeventtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\vanillaachievementsexpanded\\1.5\\source\\achievementsexpanded\\achievementsexpanded\\staticcollections\\staticcollections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\staticcollections\\staticcollections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\pawnjoined\\pawnjoinedtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\pawnjoined\\pawnjoinedtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\achievementmanager\\achievementharmony.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\achievementmanager\\achievementharmony.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\pawnjoined\\racedeftracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\pawnjoined\\racedeftracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\pawnjoined\\kinddeftracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\pawnjoined\\kinddeftracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\pawnjoined\\slavejoinedtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\pawnjoined\\slavejoinedtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\pawnjoined\\prisonerjoinedtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\pawnjoined\\prisonerjoinedtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\misc\\modamounttracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\misc\\modamounttracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\building\\buildingtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\building\\buildingtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\misc\\itemtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\misc\\itemtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\achievementmanager\\utilitymethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\achievementmanager\\utilitymethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\abilities\\abilityusetracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\abilities\\abilityusetracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\anomaly\\nociospheretracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\anomaly\\nociospheretracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\anomaly\\entitiesinholdtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\anomaly\\entitiesinholdtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\biotech\\geneaddedtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\biotech\\geneaddedtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\biotech\\birthstracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\biotech\\birthstracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\royalty\\royaltitletracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\royalty\\royaltitletracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\royalty\\mechclusterdefeattracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\royalty\\mechclusterdefeattracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\plants\\planttracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\plants\\planttracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\misc\\itemcrafttracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\misc\\itemcrafttracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\misc\\ingestiontracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\misc\\ingestiontracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\kill\\killtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\kill\\killtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\misc\\animalbondedtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\misc\\animalbondedtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\ideology\\ideostracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\ideology\\ideostracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\hediff\\multihedifftracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\hediff\\multihedifftracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\hediff\\hedifftracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\hediff\\hedifftracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\building\\multiplebuildingtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\building\\multiplebuildingtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\achievementmanager\\achievementpointmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\achievementmanager\\achievementpointmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\incident\\questtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\incident\\questtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\kill\\bondedanimalonfirekilltracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\kill\\bondedanimalonfirekilltracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\ui\\maintabwindow_achievements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\ui\\maintabwindow_achievements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\achievementmanager\\vaesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\achievementmanager\\vaesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\misc\\researchtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\misc\\researchtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\achievementcard\\achievementdef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\achievementcard\\achievementdef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\base\\generictracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\base\\generictracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\kill\\killtrackerwithor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\kill\\killtrackerwithor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\achievementcard\\achievementtabdef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\achievementcard\\achievementtabdef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\incident\\incidenttracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\incident\\incidenttracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\achievementcard\\achievementcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\achievementcard\\achievementcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\ui\\achievementtex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\ui\\achievementtex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\base\\trackerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\base\\trackerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\mood\\moodtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\mood\\moodtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\mood\\mentalbreaktracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\mood\\mentalbreaktracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\incident\\settlementdefeattracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\incident\\settlementdefeattracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\incident\\incidentseasonaltracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\incident\\incidentseasonaltracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\hediff\\hediffdeathtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\hediff\\hediffdeathtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\building\\shipbuildingtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\building\\shipbuildingtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\achievementmanager\\achievementgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\achievementmanager\\achievementgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|AchievementsExpanded||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\base\\tracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\base\\tracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\base\\tracker3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\base\\tracker3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\tracker\\base\\tracker2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\tracker\\base\\tracker2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\rewards\\reward_enemyraid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\rewards\\reward_enemyraid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\rewards\\achievementreward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\rewards\\achievementreward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\achievementmanager\\debugging\\achievementdebugaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\achievementmanager\\debugging\\achievementdebugaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\achievementcard\\achievementtabhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\achievementcard\\achievementtabhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\achievementmanager\\debugging\\debugtools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\achievementmanager\\debugging\\debugtools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\achievementsexpanded\\achievementmanager\\debugging\\debugactionssetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\achievementmanager\\debugging\\debugactionssetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Abilities\\AbilitiesBeingUsedTracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AchievementsExpanded\\Tracker\\Abilities\\AbilitiesBeingUsedTracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SkillTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\StatsAndRecords\\SkillTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\StatsAndRecords\\SkillTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\StatsAndRecords\\SkillTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\StatsAndRecords\\SkillTracker.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAC0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TimeTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\StatsAndRecords\\TimeTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\StatsAndRecords\\TimeTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\StatsAndRecords\\TimeTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\StatsAndRecords\\TimeTracker.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TraderTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\StatsAndRecords\\TraderTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\StatsAndRecords\\TraderTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\StatsAndRecords\\TraderTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\StatsAndRecords\\TraderTracker.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WealthTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\StatsAndRecords\\WealthTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\StatsAndRecords\\WealthTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\StatsAndRecords\\WealthTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\StatsAndRecords\\WealthTracker.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AbilityCountTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Abilities\\AbilityCountTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Abilities\\AbilityCountTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Abilities\\AbilityCountTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Abilities\\AbilityCountTracker.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAjwHQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "XenotypeDefTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Biotech\\XenotypeDefTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Biotech\\XenotypeDefTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Biotech\\XenotypeDefTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Biotech\\XenotypeDefTracker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameComponent_PawnCache.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\GameComponents\\GameComponent_PawnCache.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\GameComponents\\GameComponent_PawnCache.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\GameComponents\\GameComponent_PawnCache.cs*",
+              "RelativeToolTip": "AchievementsExpanded\\GameComponents\\GameComponent_PawnCache.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T10:54:29.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MultiRecordEventTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\StatsAndRecords\\MultiRecordEventTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\StatsAndRecords\\MultiRecordEventTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\StatsAndRecords\\MultiRecordEventTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\StatsAndRecords\\MultiRecordEventTracker.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RecordTimeTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\StatsAndRecords\\RecordTimeTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\StatsAndRecords\\RecordTimeTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\StatsAndRecords\\RecordTimeTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\StatsAndRecords\\RecordTimeTracker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RecordEventTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\StatsAndRecords\\RecordEventTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\StatsAndRecords\\RecordEventTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\StatsAndRecords\\RecordEventTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\StatsAndRecords\\RecordEventTracker.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StaticCollections.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\StaticCollections\\StaticCollections.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\StaticCollections\\StaticCollections.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\StaticCollections\\StaticCollections.cs",
+              "RelativeToolTip": "AchievementsExpanded\\StaticCollections\\StaticCollections.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T10:51:47.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PawnJoinedTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\PawnJoined\\PawnJoinedTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\PawnJoined\\PawnJoinedTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\PawnJoined\\PawnJoinedTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\PawnJoined\\PawnJoinedTracker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ModAmountTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Misc\\ModAmountTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Misc\\ModAmountTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Misc\\ModAmountTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Misc\\ModAmountTracker.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAACLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RaceDefTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\PawnJoined\\RaceDefTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\PawnJoined\\RaceDefTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\PawnJoined\\RaceDefTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\PawnJoined\\RaceDefTracker.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "KindDefTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\PawnJoined\\KindDefTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\PawnJoined\\KindDefTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\PawnJoined\\KindDefTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\PawnJoined\\KindDefTracker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AchievementHarmony.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\AchievementManager\\AchievementHarmony.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\AchievementManager\\AchievementHarmony.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\AchievementManager\\AchievementHarmony.cs",
+              "RelativeToolTip": "AchievementsExpanded\\AchievementManager\\AchievementHarmony.cs",
+              "ViewState": "AQIAAJgDAAAAAAAAAAAAAKQDAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BuildingTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Building\\BuildingTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Building\\BuildingTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Building\\BuildingTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Building\\BuildingTracker.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAAsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UtilityMethods.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\AchievementManager\\UtilityMethods.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\AchievementManager\\UtilityMethods.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\AchievementManager\\UtilityMethods.cs",
+              "RelativeToolTip": "AchievementsExpanded\\AchievementManager\\UtilityMethods.cs",
+              "ViewState": "AQIAAKgAAAAAAAAAAAAAAOYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SlaveJoinedTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\PawnJoined\\SlaveJoinedTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\PawnJoined\\SlaveJoinedTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\PawnJoined\\SlaveJoinedTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\PawnJoined\\SlaveJoinedTracker.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAACAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PrisonerJoinedTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\PawnJoined\\PrisonerJoinedTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\PawnJoined\\PrisonerJoinedTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\PawnJoined\\PrisonerJoinedTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\PawnJoined\\PrisonerJoinedTracker.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAACLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ItemTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Misc\\ItemTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Misc\\ItemTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Misc\\ItemTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Misc\\ItemTracker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAwwBEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AbilityUseTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Abilities\\AbilityUseTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Abilities\\AbilityUseTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Abilities\\AbilityUseTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Abilities\\AbilityUseTracker.cs",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAAAIEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NociosphereTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Anomaly\\NociosphereTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Anomaly\\NociosphereTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Anomaly\\NociosphereTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Anomaly\\NociosphereTracker.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAwwEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GeneAddedTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Biotech\\GeneAddedTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Biotech\\GeneAddedTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Biotech\\GeneAddedTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Biotech\\GeneAddedTracker.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAACsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BirthsTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Biotech\\BirthsTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Biotech\\BirthsTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Biotech\\BirthsTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Biotech\\BirthsTracker.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAABzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EntitiesInHoldTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Anomaly\\EntitiesInHoldTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Anomaly\\EntitiesInHoldTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Anomaly\\EntitiesInHoldTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Anomaly\\EntitiesInHoldTracker.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAACeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "AbilitiesBeingUsedTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Abilities\\AbilitiesBeingUsedTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Abilities\\AbilitiesBeingUsedTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Abilities\\AbilitiesBeingUsedTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Abilities\\AbilitiesBeingUsedTracker.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADcAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RoyalTitleTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Royalty\\RoyalTitleTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Royalty\\RoyalTitleTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Royalty\\RoyalTitleTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Royalty\\RoyalTitleTracker.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAACfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MechClusterDefeatTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Royalty\\MechClusterDefeatTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Royalty\\MechClusterDefeatTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Royalty\\MechClusterDefeatTracker.cs*",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Royalty\\MechClusterDefeatTracker.cs*",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAABwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PlantTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Plants\\PlantTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Plants\\PlantTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Plants\\PlantTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Plants\\PlantTracker.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ItemCraftTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Misc\\ItemCraftTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Misc\\ItemCraftTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Misc\\ItemCraftTracker.cs*",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Misc\\ItemCraftTracker.cs*",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IngestionTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Misc\\IngestionTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Misc\\IngestionTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Misc\\IngestionTracker.cs*",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Misc\\IngestionTracker.cs*",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACUAAABuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "KillTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Kill\\KillTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Kill\\KillTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Kill\\KillTracker.cs*",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Kill\\KillTracker.cs*",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACIAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AnimalBondedTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Misc\\AnimalBondedTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Misc\\AnimalBondedTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Misc\\AnimalBondedTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Misc\\AnimalBondedTracker.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IdeosTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Ideology\\IdeosTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Ideology\\IdeosTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Ideology\\IdeosTracker.cs*",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Ideology\\IdeosTracker.cs*",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAABsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "MultiHediffTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Hediff\\MultiHediffTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Hediff\\MultiHediffTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Hediff\\MultiHediffTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Hediff\\MultiHediffTracker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "HediffTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Hediff\\HediffTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Hediff\\HediffTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Hediff\\HediffTracker.cs*",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Hediff\\HediffTracker.cs*",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAB7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "MultipleBuildingTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Building\\MultipleBuildingTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Building\\MultipleBuildingTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Building\\MultipleBuildingTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Building\\MultipleBuildingTracker.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AchievementPointManager.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\AchievementManager\\AchievementPointManager.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\AchievementManager\\AchievementPointManager.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\AchievementManager\\AchievementPointManager.cs",
+              "RelativeToolTip": "AchievementsExpanded\\AchievementManager\\AchievementPointManager.cs",
+              "ViewState": "AQIAAIoAAAAAAAAAAAAAADkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "QuestTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Incident\\QuestTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Incident\\QuestTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Incident\\QuestTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Incident\\QuestTracker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "MainTabWindow_Achievements.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\UI\\MainTabWindow_Achievements.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\UI\\MainTabWindow_Achievements.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\UI\\MainTabWindow_Achievements.cs",
+              "RelativeToolTip": "AchievementsExpanded\\UI\\MainTabWindow_Achievements.cs",
+              "ViewState": "AQIAAO4AAAAAAAAAAAAAAP8AAAAxAQAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "VAESettings.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\AchievementManager\\VAESettings.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\AchievementManager\\VAESettings.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\AchievementManager\\VAESettings.cs",
+              "RelativeToolTip": "AchievementsExpanded\\AchievementManager\\VAESettings.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACwAAAB6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "BondedAnimalOnFireKillTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Kill\\BondedAnimalOnFireKillTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Kill\\BondedAnimalOnFireKillTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Kill\\BondedAnimalOnFireKillTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Kill\\BondedAnimalOnFireKillTracker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ResearchTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Misc\\ResearchTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Misc\\ResearchTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Misc\\ResearchTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Misc\\ResearchTracker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "AchievementDef.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\AchievementCard\\AchievementDef.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\AchievementCard\\AchievementDef.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\AchievementCard\\AchievementDef.cs",
+              "RelativeToolTip": "AchievementsExpanded\\AchievementCard\\AchievementDef.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "GenericTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Base\\GenericTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Base\\GenericTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Base\\GenericTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Base\\GenericTracker.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAACQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "KillTrackerWithOr.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Kill\\KillTrackerWithOr.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Kill\\KillTrackerWithOr.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Kill\\KillTrackerWithOr.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Kill\\KillTrackerWithOr.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AchievementTabDef.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\AchievementCard\\AchievementTabDef.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\AchievementCard\\AchievementTabDef.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\AchievementCard\\AchievementTabDef.cs",
+              "RelativeToolTip": "AchievementsExpanded\\AchievementCard\\AchievementTabDef.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IncidentTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Incident\\IncidentTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Incident\\IncidentTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Incident\\IncidentTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Incident\\IncidentTracker.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "AchievementCard.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\AchievementCard\\AchievementCard.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\AchievementCard\\AchievementCard.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\AchievementCard\\AchievementCard.cs",
+              "RelativeToolTip": "AchievementsExpanded\\AchievementCard\\AchievementCard.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAHAAAACrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "AchievementTex.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\UI\\AchievementTex.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\UI\\AchievementTex.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\UI\\AchievementTex.cs",
+              "RelativeToolTip": "AchievementsExpanded\\UI\\AchievementTex.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "TrackerBase.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Base\\TrackerBase.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Base\\TrackerBase.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Base\\TrackerBase.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Base\\TrackerBase.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "MoodTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Mood\\MoodTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Mood\\MoodTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Mood\\MoodTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Mood\\MoodTracker.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "MentalBreakTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Mood\\MentalBreakTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Mood\\MentalBreakTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Mood\\MentalBreakTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Mood\\MentalBreakTracker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "SettlementDefeatTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Incident\\SettlementDefeatTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Incident\\SettlementDefeatTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Incident\\SettlementDefeatTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Incident\\SettlementDefeatTracker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "IncidentSeasonalTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Incident\\IncidentSeasonalTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Incident\\IncidentSeasonalTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Incident\\IncidentSeasonalTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Incident\\IncidentSeasonalTracker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "HediffDeathTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Hediff\\HediffDeathTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Hediff\\HediffDeathTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Hediff\\HediffDeathTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Hediff\\HediffDeathTracker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ShipBuildingTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Building\\ShipBuildingTracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Building\\ShipBuildingTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Building\\ShipBuildingTracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Building\\ShipBuildingTracker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "AchievementGenerator.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\AchievementManager\\AchievementGenerator.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\AchievementManager\\AchievementGenerator.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\AchievementManager\\AchievementGenerator.cs",
+              "RelativeToolTip": "AchievementsExpanded\\AchievementManager\\AchievementGenerator.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAAMAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "AchievementsExpanded",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\AchievementsExpanded.csproj",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\AchievementsExpanded.csproj",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\AchievementsExpanded.csproj",
+              "RelativeToolTip": "AchievementsExpanded\\AchievementsExpanded.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-01-26T14:52:56.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Tracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Base\\Tracker.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Base\\Tracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Base\\Tracker.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Base\\Tracker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Tracker3.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Base\\Tracker3.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Base\\Tracker3.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Base\\Tracker3.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Base\\Tracker3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Tracker2.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Base\\Tracker2.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Tracker\\Base\\Tracker2.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Tracker\\Base\\Tracker2.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Tracker\\Base\\Tracker2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Reward_EnemyRaid.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Rewards\\Reward_EnemyRaid.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Rewards\\Reward_EnemyRaid.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Rewards\\Reward_EnemyRaid.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Rewards\\Reward_EnemyRaid.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "AchievementReward.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Rewards\\AchievementReward.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\Rewards\\AchievementReward.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\Rewards\\AchievementReward.cs",
+              "RelativeToolTip": "AchievementsExpanded\\Rewards\\AchievementReward.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "AchievementDebugAction.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\AchievementManager\\Debugging\\AchievementDebugAction.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\AchievementManager\\Debugging\\AchievementDebugAction.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\AchievementManager\\Debugging\\AchievementDebugAction.cs",
+              "RelativeToolTip": "AchievementsExpanded\\AchievementManager\\Debugging\\AchievementDebugAction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "AchievementTabHelper.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\AchievementCard\\AchievementTabHelper.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\AchievementCard\\AchievementTabHelper.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\AchievementCard\\AchievementTabHelper.cs",
+              "RelativeToolTip": "AchievementsExpanded\\AchievementCard\\AchievementTabHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "DebugActionsSetup.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\AchievementManager\\Debugging\\DebugActionsSetup.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\AchievementManager\\Debugging\\DebugActionsSetup.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\AchievementManager\\Debugging\\DebugActionsSetup.cs",
+              "RelativeToolTip": "AchievementsExpanded\\AchievementManager\\Debugging\\DebugActionsSetup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAYAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "DebugTools.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\AchievementManager\\Debugging\\DebugTools.cs",
+              "RelativeDocumentMoniker": "AchievementsExpanded\\AchievementManager\\Debugging\\DebugTools.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.5\\Source\\AchievementsExpanded\\AchievementsExpanded\\AchievementManager\\Debugging\\DebugTools.cs",
+              "RelativeToolTip": "AchievementsExpanded\\AchievementManager\\Debugging\\DebugTools.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:22:06.83Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

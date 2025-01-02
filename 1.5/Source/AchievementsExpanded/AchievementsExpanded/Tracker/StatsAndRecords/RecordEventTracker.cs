@@ -43,7 +43,7 @@ namespace AchievementsExpanded
 				{
 					return Trigger(def, null);
 				}
-				foreach (Pawn pawn in PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_OfPlayerFaction)
+				foreach (Pawn pawn in StaticCollections.colonyPawns)
 				{
 					if (Trigger(def, pawn))
 					{
@@ -78,9 +78,9 @@ namespace AchievementsExpanded
 			if (total)
 			{
 				triggeredCount = 0;
-				foreach (ColonistBar.Entry pawn2 in Find.ColonistBar.Entries)
+				foreach (Pawn pawn2 in StaticCollections.colonyPawns)
 				{
-					triggeredCount += pawn2.pawn.records.GetValue(record);
+					triggeredCount += pawn2.records.GetValue(record);
 					if (triggeredCount >= count)
 						return true;
 				}

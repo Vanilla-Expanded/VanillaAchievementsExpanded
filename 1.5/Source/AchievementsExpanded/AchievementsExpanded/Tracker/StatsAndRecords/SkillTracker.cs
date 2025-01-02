@@ -43,7 +43,7 @@ namespace AchievementsExpanded
 		{
 			get
 			{
-				foreach (Pawn pawn in PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_OfPlayerFaction)
+				foreach (Pawn pawn in StaticCollections.colonyPawns)
 				{
 					if (pawn.skills != null && Trigger(def, pawn.skills.GetSkill(def).Level))
 					{

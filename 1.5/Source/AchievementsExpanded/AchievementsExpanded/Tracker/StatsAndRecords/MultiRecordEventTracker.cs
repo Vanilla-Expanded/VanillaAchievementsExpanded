@@ -44,9 +44,9 @@ namespace AchievementsExpanded
 				{
 					float value = 0;
 					bool satisfied = false;
-					foreach (ColonistBar.Entry pawn2 in Find.ColonistBar.Entries)
+					foreach (Pawn pawn2 in StaticCollections.colonyPawns)
 					{
-						value += pawn2.pawn.records.GetValue(records.Key);
+						value += pawn2.records.GetValue(records.Key);
 						if (value >= records.Value)
 						{
 							if (total)
@@ -86,9 +86,9 @@ namespace AchievementsExpanded
 				{
 					float value = 0;
 					bool satisfied = false;
-					foreach (ColonistBar.Entry pawn2 in Find.ColonistBar.Entries)
+					foreach (Pawn pawn2 in StaticCollections.colonyPawns)
 					{
-						value += pawn2.pawn.records.GetValue(records.Key);
+						value += pawn2.records.GetValue(records.Key);
 						if (value >= records.Value)
 						{
 							satisfied = true;
