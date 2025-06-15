@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_Multiculture</defName>
+		<label>Multiculture</label>
+		<description>Have pawns of at least 4 different Ideoligions as members of your colony</description>
+		<tracker Class="AchievementsExpanded.IdeosTracker">
+			<count>4</count>
+		</tracker>
+		<tab>VAE_DLCTab</tab>
+		<texPath>Achievements/VAE_Multiculture</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_SlaveOwner</defName>
+		<label>Slave Owner</label>
+		<tab>VAE_DLCTab</tab>
+		<description>Enslave a person</description>
+		<tracker Class="AchievementsExpanded.SlaveJoinedTracker">
+			<numberOfSlaves>1</numberOfSlaves>
+		</tracker>
+		<texPath>Achievements/VAE_SlaveOwner</texPath>
+		<points>5</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_SlaveDriver</defName>
+		<label>Slave Driver</label>
+		<tab>VAE_DLCTab</tab>
+		<description>Enslave seven people at the same time</description>
+		<tracker Class="AchievementsExpanded.SlaveJoinedTracker">
+			
+			<numberOfSlaves>7</numberOfSlaves>
+		</tracker>
+		<texPath>Achievements/VAE_SlaveDriver</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_HappyTreeCritters</defName>
+		<label>Happy Tree Critters</label>
+		<tab>VAE_DLCTab</tab>
+		<description>Get 15 barkskin dryads</description>
+		<tracker Class="AchievementsExpanded.RaceDefTracker">
+			<raceDefs>
+				<li>
+					<key>Dryad_Barkskin</key>
+					<value>15</value>
+				</li>
+			</raceDefs>
+		
+		</tracker>
+		<texPath>Achievements/VAE_HappyTreeCritters</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_ItBelongsInAMuseum</defName>
+		<label>It Belongs in a Museum</label>
+		<description>Build three reliquaries</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.BuildingTracker">
+			<def>Reliquary</def>
+			<count>3</count>
+		</tracker>
+		
+		<texPath>Achievements/VAE_ItBelongsInAMuseum</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_Wololo</defName>
+		<label>Wololo</label>
+		<description>Have a moralist use the Convert ability 10 times</description>
+		<tab>VAE_DLCTab</tab>
+		
+		<tracker Class="AchievementsExpanded.AbilityUseTracker">
+			
+			<count>10</count>
+			<abilityDef>Convert</abilityDef>
+			
+		</tracker>
+		
+		<texPath>Achievements/VAE_Wololo</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+</Defs>

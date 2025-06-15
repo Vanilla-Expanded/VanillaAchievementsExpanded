@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_FreedomDenied</defName>
+		<label>Freedom Denied</label>
+		<description>Have your first prisoner</description>
+		
+		<tracker Class="AchievementsExpanded.PrisonerJoinedTracker">
+			<numberOfPrisoners>1</numberOfPrisoners>
+		</tracker>
+		
+		<texPath>Achievements/VAE_FreedomDenied</texPath>
+		<points>5</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_RuraPenthe</defName>
+		<label>Rura Penthe</label>
+		<description>Have 10 prisoners at the same time</description>
+		
+		<tracker Class="AchievementsExpanded.PrisonerJoinedTracker">
+			<numberOfPrisoners>10</numberOfPrisoners>
+		</tracker>
+		
+		<texPath>Achievements/VAE_RuraPenthe</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_PrisonArchitect</defName>
+		<label>Prison Architect</label>
+		<description>Capture 100 prisoners (cummulative)</description>
+		
+		<tracker Class="AchievementsExpanded.RecordEventTracker">
+			<def>PeopleCaptured</def>
+			<count>100</count>
+			<total>true</total>
+		</tracker>
+		
+		<texPath>Achievements/VAE_PrisonArchitect</texPath>
+		<points>75</points>
+	</AchievementsExpanded.AchievementDef>
+</Defs>

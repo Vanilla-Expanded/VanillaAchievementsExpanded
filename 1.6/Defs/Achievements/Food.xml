@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_IceCold</defName>
+		<label>Ice Cold</label>
+		<description>Have colonists consume 100 beers</description>
+		
+		<tracker Class="AchievementsExpanded.IngestionTracker">
+			<ingestorThingDef>Human</ingestorThingDef>
+			<count>100</count>
+			<foodDef>Beer</foodDef>
+			
+			
+		</tracker>
+		
+		<texPath>Achievements/VAE_IceCold</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_Munchies</defName>
+		<label>The Munchies</label>
+		<description>Have your pawns eat 100 (non-veg or carnivore) lavish meals</description>
+		
+		<tracker Class="AchievementsExpanded.IngestionTracker">
+			<ingestorThingDef>Human</ingestorThingDef>
+			<count>100</count>
+			<foodDef>MealLavish</foodDef>
+		</tracker>
+		
+		<texPath>Achievements/VAE_Munchies</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_TastesLikePeanuts</defName>
+		<label>Tastes Like Peanuts</label>
+		<description>Have your pawns eat 100 meals containing insect meat</description>
+		
+		<tracker Class="AchievementsExpanded.IngestionTracker">
+			<ingestorThingDef>Human</ingestorThingDef>
+			<count>100</count>
+			<includeIngredientDef>Meat_Megaspider</includeIngredientDef>
+			
+		</tracker>
+		
+		<texPath>Achievements/VAE_TastesLikePeanuts</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_NoEnergyNoTown</defName>
+		<label>No Energy no Town</label>
+		<description>Have pigs or wildboars feed on corpses 100 times</description>
+		
+		<tracker Class="AchievementsExpanded.IngestionTracker">
+			<ingestorsThingDefs><li>Pig</li><li>WildBoar</li></ingestorsThingDefs>
+			<count>100</count>
+			<checkIfCorpse>true</checkIfCorpse>
+			
+			
+		</tracker>
+		
+		<texPath>Achievements/VAE_NoEnergyNoTown</texPath>
+		<points>50</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_TheOtherPig</defName>
+		<label>The Other Pig</label>
+		<description>Have colonists commit raw cannibalism 50 times</description>
+		
+		<tracker Class="AchievementsExpanded.IngestionTracker">
+			<ingestorThingDef>Human</ingestorThingDef>
+			<count>50</count>
+			<checkIfCorpse>true</checkIfCorpse>
+			
+			
+		</tracker>
+		
+		<texPath>Achievements/VAE_TheOtherPig</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_CaptainPlanetWouldGetAStroke</defName>
+		<label>Captain Planet Would Have a Stroke</label>
+		<description>Have your pet thrumbos consume 50 trees</description>
+		
+		<tracker Class="AchievementsExpanded.IngestionTracker">
+			<ingestorThingDef>Thrumbo</ingestorThingDef>
+			<count>50</count>
+			<checkIfTree>true</checkIfTree>
+			
+			
+		</tracker>
+		
+		<texPath>Achievements/VAE_CaptainPlanetWouldGetAStroke</texPath>
+		<points>50</points>
+	</AchievementsExpanded.AchievementDef>
+
+</Defs>

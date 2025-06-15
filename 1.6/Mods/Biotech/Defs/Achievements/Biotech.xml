@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_Bloodsuckers</defName>
+		<label>Bloodsuckers</label>
+		<description>Get 3 colonists with Hemogenic gene</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.GeneAddedTracker">
+			<genesList>
+				<li>
+					<key>Hemogenic</key>
+					<value>3</value>
+				</li>
+			</genesList>
+			
+		</tracker>
+		
+		<texPath>Achievements/VAE_Bloodsuckers</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_NeedMoreCatgirls</defName>
+		<label>Need More Catgirls</label>
+		<description>Get 3 Highmates in the same colony</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.XenotypeDefTracker">
+			<xenotypeDefs>
+				<li>
+					<key>Highmate</key>
+					<value>3</value>
+				</li>
+			</xenotypeDefs>
+			
+		</tracker>
+		
+		<texPath>Achievements/VAE_NeedMoreCatgirls</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_UngusAndBungus</defName>
+		<label>Ungus and Bungus</label>
+		<description>Have a colony with 10 Neanderthals</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.XenotypeDefTracker">
+			<xenotypeDefs>
+				<li>
+					<key>Neanderthal</key>
+					<value>10</value>
+				</li>
+			</xenotypeDefs>
+			
+		</tracker>
+		
+		<texPath>Achievements/VAE_UngusAndBungus</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_AMachineForPigs</defName>
+		<label>A Machine for Pigs</label>
+		<description>Kill 100 Pigskins</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.KillTracker">
+			<raceDef>Human</raceDef>
+			<count>100</count>
+			<xenotypeDef>Pigskin</xenotypeDef>
+		</tracker>
+		
+		<texPath>Achievements/VAE_AMachineForPigs</texPath>
+		<points>75</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_MeltingPot</defName>
+		<label>Melting Pot</label>
+		<description>Get a colonist from one of each of the vanilla xenotypes</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.XenotypeDefTracker">
+			<requireAll>true</requireAll>
+			<xenotypeDefs>
+				<li>
+					<key>Dirtmole</key>
+					<value>1</value>
+				</li>
+				<li>
+					<key>Genie</key>
+					<value>1</value>
+				</li>
+				<li>
+					<key>Hussar</key>
+					<value>1</value>
+				</li>
+				<li>
+					<key>Sanguophage</key>
+					<value>1</value>
+				</li>
+				<li>
+					<key>Pigskin</key>
+					<value>1</value>
+				</li>
+				<li>
+					<key>Impid</key>
+					<value>1</value>
+				</li>
+				<li>
+					<key>Waster</key>
+					<value>1</value>
+				</li>
+				<li>
+					<key>Yttakin</key>
+					<value>1</value>
+				</li>
+				<li>
+					<key>Highmate</key>
+					<value>1</value>
+				</li>
+			</xenotypeDefs>
+			
+		</tracker>
+		
+		<texPath>Achievements/VAE_MeltingPot</texPath>
+		<points>100</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_NewGeneration</defName>
+		<label>New Generation</label>
+		<description>Have 10 natural births in the colony</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.BirthsTracker">
+			
+			<count>10</count>
+			
+		</tracker>
+		
+		<texPath>Achievements/VAE_NewGeneration</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_UpsyDaisyVampireyHealyPower</defName>
+		<label>Upsy Daisy Vampirey Healy Power</label>
+		<description>Use the Coagulate ability at least 20 times</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.AbilityUseTracker">
+			
+			<count>20</count>
+			<abilityDef>Coagulate</abilityDef>
+			
+		</tracker>
+		
+		<texPath>Achievements/VAE_UpsyDaisyVampireyHealyPower</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_StokingTheFire</defName>
+		<label>Stoking the Fire</label>
+		<description>Use the Fire Spew ability on a pawn that is already on fire</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.AbilityUseTracker">
+			
+			<count>1</count>
+			<abilityDef>FireSpew</abilityDef>
+			<targetOnFire>true</targetOnFire>
+		</tracker>
+		
+		<texPath>UI/Abilities/FireSpew</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_SpineOverkill</defName>
+		<label>Spine Overkill</label>
+		<description>Use the Piercing Spine ability on a target below 5% health</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.AbilityUseTracker">
+			
+			<count>1</count>
+			<abilityDef>PiercingSpine</abilityDef>
+			<targetBelowHealthPercentage>0.05</targetBelowHealthPercentage>
+		</tracker>
+		
+		<texPath>UI/Abilities/PiercingSpine</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_YouAndWhoseArmy</defName>
+		<label>You and Whose Army?</label>
+		<description>Use Animal Warcall ability 10 times to summon creatures of the wild</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.AbilityUseTracker">
+			
+			<count>10</count>
+			<abilityDef>AnimalWarcall</abilityDef>
+			
+		</tracker>
+		
+		<texPath>UI/Abilities/AnimalWarcall</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_JustASippy</defName>
+		<label>Just a Sippy</label>
+		<description>Use the Bloodfeed ability on a friendly pawn</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.AbilityUseTracker">
+			
+			<count>1</count>
+			<abilityDef>Bloodfeed</abilityDef>
+			<checkTargetOnlyOfPlayerFaction>true</checkTargetOnlyOfPlayerFaction>
+		</tracker>
+		
+		<texPath>UI/Icons/Genes/Gene_Bloodfeeder</texPath>
+		<points>5</points>
+	</AchievementsExpanded.AchievementDef>
+	
+</Defs>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ideology</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<AchievementsExpanded.AchievementDef>
+							<defName>VAE_PlantsVsZombies</defName>
+							<label>Plants Vs Zombies</label>
+							<description>Have a clawer dryad kill a shambler swarmer</description>
+							<tab>VAE_DLCTab</tab>
+							<tracker Class="AchievementsExpanded.KillTracker">
+								<kindDef>ShamblerSwarmer</kindDef>
+								<count>1</count>
+								<instigatorThingDef>Dryad_Clawer</instigatorThingDef>
+							</tracker>
+							<texPath>Achievements/VAE_PlantsVsZombies</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

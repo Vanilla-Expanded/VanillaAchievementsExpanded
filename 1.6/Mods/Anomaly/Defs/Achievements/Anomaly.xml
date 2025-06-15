@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_GetAGhoul</defName>
+		<label>Don't Let it Get Hungry</label>
+		<description>Get a ghoul</description>
+		<tab>VAE_DLCTab</tab>
+		<blockedUntilMonolithLevel>Stirring</blockedUntilMonolithLevel>
+		<tracker Class="AchievementsExpanded.KindDefTracker">
+			<kindDefs>
+				<li>
+					<key>Ghoul</key>
+					<value>1</value>
+				</li>
+			</kindDefs>
+		</tracker>
+		<texPath>Achievements/VAE_GetAGhoul</texPath>
+		<points>5</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_ContainARevenant</defName>
+		<label>Invisible Coward</label>
+		<blockedUntilMonolithLevel>Waking</blockedUntilMonolithLevel>
+		<description>Contain a Revenant</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.EntitiesInHoldTracker">
+			<entitiesList>
+				<li>
+					<key>Revenant</key>
+					<value>1</value>
+				</li>
+			</entitiesList>
+		</tracker>
+		<texPath>Achievements/VAE_ContainARevenant</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_Nananana</defName>
+		<label>Na-na-na-na</label>
+		<blockedUntilMonolithLevel>Waking</blockedUntilMonolithLevel>
+		<description>Contain a Nociosphere</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.EntitiesInHoldTracker">
+			<entitiesList>
+				<li>
+					<key>Nociosphere</key>
+					<value>1</value>
+				</li>
+			</entitiesList>
+		</tracker>
+		<texPath>Achievements/VAE_Nananana</texPath>
+		<points>5</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_PrinceOfAllCosmos</defName>
+		<label>Prince of all Cosmos</label>
+		<blockedUntilMonolithLevel>Waking</blockedUntilMonolithLevel>
+		<description>Activate Nociosphere</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.NociosphereTracker">
+			<nociosphereActivations>1</nociosphereActivations>
+		</tracker>
+		<texPath>Achievements/VAE_PrinceOfAllCosmos</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_ItsDangerouslyDangerous</defName>
+		<label>It’s Dangerously Dangerous</label>
+		<blockedUntilMonolithLevel>Waking</blockedUntilMonolithLevel>
+		<description>Activate Five Nociospheres</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.NociosphereTracker">
+			<nociosphereActivations>5</nociosphereActivations>
+		</tracker>
+		<texPath>Achievements/VAE_ItsDangerouslyDangerous</texPath>
+		<points>50</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_PurePerfection</defName>
+		<label>Pure Perfection</label>
+		<blockedUntilMonolithLevel>Waking</blockedUntilMonolithLevel>
+		<description>Contain a Golden Cube. Love the Cube</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.EntitiesInHoldTracker">
+			<entitiesList>
+				<li>
+					<key>GoldenCube</key>
+					<value>1</value>
+				</li>
+			</entitiesList>
+		</tracker>
+		<texPath>Achievements/VAE_PurePerfection</texPath>
+		<points>5</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_PlatonicSolid</defName>
+		<label>Platonic Solid</label>
+		<blockedUntilMonolithLevel>Waking</blockedUntilMonolithLevel>
+		<description>Contain a Golden Cube. Love the Cube</description>
+		<tab>VAE_DLCTab</tab>
+		
+		<tracker Class="AchievementsExpanded.HediffTracker">
+			<def>CubeInterest</def>
+			<count>7</count>
+		</tracker>
+		
+		
+		<texPath>Achievements/VAE_PlatonicSolid</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_TheNightParty</defName>
+		<label>The Night Party</label>
+		<blockedUntilMonolithLevel>Waking</blockedUntilMonolithLevel>
+		<description>Contain 2 Noctols and 2 Sightstealers</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.EntitiesInHoldTracker">
+			<entitiesList>
+				<li>
+					<key>Noctol</key>
+					<value>2</value>
+				</li>
+				<li>
+					<key>Sightstealer</key>
+					<value>2</value>
+				</li>
+			</entitiesList>
+		</tracker>
+		<texPath>Achievements/VAE_TheNightParty</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_EmbraceTheVoid</defName>
+		<label>Embrace the Void</label>
+		<blockedUntilMonolithLevel>VoidAwakened</blockedUntilMonolithLevel>
+		<description>Have a colonist embrace the void</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.HediffTracker">
+			<def>VoidTouched</def>
+			<count>1</count>
+		</tracker>
+		<texPath>Achievements/VAE_EmbraceTheVoid</texPath>
+		<points>100</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_BlindedByTheLight</defName>
+		<label>Blinded by the light</label>
+		<blockedUntilMonolithLevel>Waking</blockedUntilMonolithLevel>
+		<description>Stun an enemy with a flare</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.HediffTracker">
+			<def>DisruptorFlash</def>
+			<count>1</count>
+		</tracker>
+		<texPath>Achievements/VAE_BlindedByTheLight</texPath>
+		<points>5</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_SecureContainProtect</defName>
+		<label>Secure, Contain, Protect</label>
+		<blockedUntilMonolithLevel>Stirring</blockedUntilMonolithLevel>
+		<description>Have a total of 30 contained entities</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.EntitiesInHoldTracker">
+			<totalEntities>30</totalEntities>
+		</tracker>
+		<texPath>Achievements/VAE_SecureContainProtect</texPath>
+		<points>100</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_OriginalityIsDead</defName>
+		<label>Originality is Dead</label>
+		<blockedUntilMonolithLevel>Waking</blockedUntilMonolithLevel>
+		<description>Have at least 10 people being duplicates</description>
+		<tracker Class="AchievementsExpanded.RaceDefTracker">
+			<raceDefs>
+				<li>
+					<key>Human</key>
+					<value>10</value>
+				</li>
+			</raceDefs>
+			<countClones>true</countClones>
+		</tracker>
+		<tab>VAE_DLCTab</tab>
+		<texPath>Achievements/VAE_OriginalityIsDead</texPath>
+		<points>75</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_Witcher</defName>
+		<label>Witcher</label>
+		<description>Kill a Revenant with a Longsword</description>
+		<blockedUntilMonolithLevel>Waking</blockedUntilMonolithLevel>
+		<tracker Class="AchievementsExpanded.KillTracker">
+			<raceDef>Revenant</raceDef>
+			<count>1</count>
+			<weaponDef>MeleeWeapon_LongSword</weaponDef>
+		</tracker>
+		<tab>VAE_DLCTab</tab>
+		<texPath>Achievements/VAE_Witcher</texPath>
+		<points>100</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_MeatForTheGrinder</defName>
+		<label>Meat for the Grinder</label>
+		<description>Use the psychic slaughter ability to turn a tribal into a pile of twisted meat</description>
+		<tab>VAE_DLCTab</tab>
+		<blockedUntilMonolithLevel>Stirring</blockedUntilMonolithLevel>
+		<tracker Class="AchievementsExpanded.AbilityUseTracker">
+			
+			<count>1</count>
+			<abilityDef>PsychicSlaughter</abilityDef>
+			<targetThingDef>Human</targetThingDef>
+			<targetFactionTechLevel>Neolithic</targetFactionTechLevel>
+		</tracker>
+		
+		<texPath>Achievements/VAE_MeatForTheGrinder</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+</Defs>

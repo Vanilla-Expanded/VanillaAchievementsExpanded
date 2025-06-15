@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_WarAgainstTheMachines</defName>
+		<label>War Against the Machines</label>
+		<description>Defeat a mech cluster</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.MechClusterDefeatTracker">
+			<count>1</count>
+		</tracker>
+		<texPath>Achievements/VAE_WarAgainstTheMachines</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_MachinesFromTheFuture</defName>
+		<label>Machines From the Future</label>
+		<description>Defeat 5 mech clusters</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.MechClusterDefeatTracker">
+			<count>5</count>
+		</tracker>
+		<texPath>Achievements/VAE_MachinesFromTheFuture</texPath>
+		<points>50</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_UnstableCells</defName>
+		<label>Surely they won’t explode</label>
+		<description>Collect 5 unstable power cells</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.BuildingTracker">
+			<def>UnstablePowerCell</def>
+			<count>5</count>
+		</tracker>
+		<texPath>Achievements/VAE_UnstableCells</texPath>
+		<points>50</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_NotInMyBackyard</defName>
+		<label>Not in my Backyard</label>
+		<description>Successfully complete a problem causer quest</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.QuestTracker">
+			<def>ProblemCauser</def>
+			<outcome>Success</outcome>
+			<count>1</count>
+		</tracker>
+		<texPath>Achievements/VAE_NotInMyBackyard</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_BlueBlood</defName>
+		<label>Blue Blood</label>
+		<description>Have a colonist become a Freeholder of the Empire</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.RoyalTitleTracker">
+			<title>Freeholder</title>
+			<count>1</count>
+		</tracker>
+		<texPath>Achievements/VAE_BlueBlood</texPath>
+		<points>5</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_NobleDeeds</defName>
+		<label>Noble Deeds</label>
+		<description>Have 3 colonists become Acolytes of the Empire</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.RoyalTitleTracker">
+			<title>Acolyte</title>
+			<count>3</count>
+		</tracker>
+		<texPath>Achievements/VAE_NobleDeeds</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_UpTheRanks</defName>
+		<label>Up the Ranks</label>
+		<description>Have a colonist become a Knight of the Empire</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.RoyalTitleTracker">
+			<title>Knight</title>
+			<count>1</count>
+		</tracker>
+		<texPath>Achievements/VAE_UpTheRanks</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_EnlightenedAristocracy</defName>
+		<label>Enlightened Aristocracy</label>
+		<description>Have a colonist become a Count of the Empire</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.RoyalTitleTracker">
+			<title>Count</title>
+			<count>1</count>
+		</tracker>
+		<texPath>Achievements/VAE_EnlightenedAristocracy</texPath>
+		<points>50</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_TheRoyalCourt</defName>
+		<label>The Royal Court</label>
+		<description>Have at least 5 colonist at the rank of Knight or more</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.RoyalTitleTracker">
+			<title>Knight</title>
+			<count>5</count>
+		</tracker>
+		<texPath>Achievements/VAE_TheRoyalCourt</texPath>
+		<points>100</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_RoyalArms</defName>
+		<label>Royal Arms</label>
+		<description>Collect a (non-persona) monosword, zeushammer and plasma sword</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.ItemTracker">
+			<thingList>
+				<li>
+					<key>MeleeWeapon_MonoSword</key>
+					<value>1</value>
+				</li>
+				<li>
+					<key>MeleeWeapon_Zeushammer</key>
+					<value>1</value>
+				</li>
+				<li>
+					<key>MeleeWeapon_PlasmaSword</key>
+					<value>1</value>
+				</li>
+			</thingList>
+			<mustHaveAll>true</mustHaveAll>
+		</tracker>
+		<texPath>Achievements/VAE_RoyalArms</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_AnimaTorture</defName>
+		<label>Anima Torture</label>
+		<tab>VAE_DLCTab</tab>
+		<description>Cut down 5 anima trees, screams be damned</description>
+		
+			<tracker Class="AchievementsExpanded.PlantTracker">
+			<def>Plant_TreeAnima</def>
+			<count>5</count>
+		</tracker>
+		
+		<texPath>Achievements/VAE_AnimaTorture</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_SorcererSupreme</defName>
+		<label>Sorcerer Supreme</label>
+		<description>Have a colonist with 10 psycasts</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.AbilityCountTracker">		
+			<count>10</count>
+			<onlyPsycast>true</onlyPsycast>
+		</tracker>
+		
+		<texPath>Achievements/VAE_SorcererSupreme</texPath>
+		<points>50</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_SecondWind</defName>
+		<label>Second Wind</label>
+		<description>Use the Painblock psycast on a colonist below 20% health to take him back to action... and risk him dying</description>
+		<tab>VAE_DLCTab</tab>
+		
+		<tracker Class="AchievementsExpanded.AbilityUseTracker">
+			
+			<count>1</count>
+			<abilityDef>Painblock</abilityDef>
+			<targetThingDef>Human</targetThingDef>
+			<checkTargetOnlyOfPlayerFaction>true</checkTargetOnlyOfPlayerFaction>
+			<targetBelowHealthPercentage>0.2</targetBelowHealthPercentage>
+		</tracker>
+		
+		<texPath>Achievements/VAE_SecondWind</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_WhoaBack</defName>
+		<label>Whoa Back</label>
+		<description>Use the Stun psycast on a manhunting Thrumbo</description>
+		<tab>VAE_DLCTab</tab>
+		
+		<tracker Class="AchievementsExpanded.AbilityUseTracker">
+			
+			<count>1</count>
+			<abilityDef>Stun</abilityDef>
+			<targetThingDef>Thrumbo</targetThingDef>
+			<targetManhunter>true</targetManhunter>
+		</tracker>
+		
+		<texPath>Achievements/VAE_WhoaBack</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_EpilepticSeizure</defName>
+		<label>Epileptic Seizure</label>
+		<description>Have a colonist use Neuroquake 10 times</description>
+		<tab>VAE_DLCTab</tab>
+		
+		<tracker Class="AchievementsExpanded.AbilityUseTracker">
+			
+			<count>10</count>
+			<abilityDef>Neuroquake</abilityDef>
+			
+		</tracker>
+		
+		<texPath>Achievements/VAE_EpilepticSeizure</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+</Defs>
