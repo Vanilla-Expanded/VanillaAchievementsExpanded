@@ -3,7 +3,7 @@
 	<AchievementsExpanded.AchievementDef>
 		<defName>pabloEmilioEscobarGaviria</defName>
 		<label>Pablo Emilio Escobar Gaviria</label>
-		<description>Sell 400 Yayo to a single trader in a single transation</description>
+		<description>Sell 400 Yayo to a single trader in a single transaction</description>
 		
 		<tracker Class="AchievementsExpanded.TraderTracker">
 			<def>Yayo</def>

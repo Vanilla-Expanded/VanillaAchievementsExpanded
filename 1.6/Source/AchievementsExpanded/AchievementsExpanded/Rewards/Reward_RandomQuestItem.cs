@@ -31,7 +31,7 @@ namespace AchievementsExpanded
 		{
 			try
 			{
-				List<ThingDef> rewards = DefDatabase<ThingDef>.AllDefs.Where(t => !t.thingSetMakerTags.NullOrEmpty() && t.thingSetMakerTags.Any(tag => thingSetMakerTags.Contains(tag))).ToList();
+				List<ThingDef> rewards = DefDatabase<ThingDef>.AllDefs.Where(t => t.thingClass != typeof(Book) && !t.thingSetMakerTags.NullOrEmpty() && t.thingSetMakerTags.Any(tag => thingSetMakerTags.Contains(tag))).ToList();
 				if (!additionalThingDefs.NullOrEmpty())
 				{
 					rewards.Concat(additionalThingDefs);
