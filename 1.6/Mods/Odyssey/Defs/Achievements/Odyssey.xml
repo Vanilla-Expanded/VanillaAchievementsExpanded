@@ -3,10 +3,22 @@
 	<AchievementsExpanded.AchievementDef>
 		<defName>VAE_GravshipLandings</defName>
 		<label>Gravship landing</label>
-		<description>Defeat a mech cluster</description>
+		<description>Land a gravship</description>
 		<tab>VAE_DLCTab</tab>
 		<tracker Class="AchievementsExpanded.GravshipLandingTracker">
 			<count>1</count>
+		</tracker>
+		<texPath>Achievements/VAE_WarAgainstTheMachines</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_EnterTwoMaps</defName>
+		<label>Enter two maps</label>
+		<description>Enter two maps</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.MapEnteringTracker">
+			<count>2</count>
 		</tracker>
 		<texPath>Achievements/VAE_WarAgainstTheMachines</texPath>
 		<points>10</points>

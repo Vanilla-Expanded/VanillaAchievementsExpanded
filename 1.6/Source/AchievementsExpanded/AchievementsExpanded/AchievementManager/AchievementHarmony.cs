@@ -1066,5 +1066,30 @@ namespace AchievementsExpanded
                 }
             }
         }
+
+        /// <summary>
+        /// Map entered
+        /// </summary>
+
+        public static void MapEntered()
+        {
+            
+                foreach (var card in AchievementPointManager.GetCards<MapEnteringTracker>())
+                {
+                    try
+                    {
+                        if ((card.tracker as MapEnteringTracker).Trigger())
+                        {
+                            card.UnlockCard();
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Log.Error($"Unable to trigger event for card validation. To avoid further errors {card.def.LabelCap} has been automatically unlocked.\n\nException={ex.Message}");
+                        card.UnlockCard();
+                    }
+                }
+            
+        }
     }
 }
