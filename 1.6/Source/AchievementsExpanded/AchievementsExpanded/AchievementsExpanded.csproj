@@ -115,6 +115,7 @@
     <Compile Include="Tracker\Abilities\AbilityUseTracker.cs" />
     <Compile Include="Tracker\Misc\IngestionTracker.cs" />
     <Compile Include="Tracker\Misc\ModAmountTracker.cs" />
+    <Compile Include="Tracker\Odyssey\GravshipLandingTracker.cs" />
     <Compile Include="Tracker\PawnJoined\SlaveJoinedTracker.cs" />
     <Compile Include="Tracker\PawnJoined\PrisonerJoinedTracker.cs" />
     <Compile Include="Tracker\Plants\PlantTracker.cs" />

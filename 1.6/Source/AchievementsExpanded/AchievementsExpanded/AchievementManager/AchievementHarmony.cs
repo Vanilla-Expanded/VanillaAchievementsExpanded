@@ -1041,5 +1041,30 @@ namespace AchievementsExpanded
 				}
 			}
 		}
-	}
+        /// <summary>
+        /// Gravship landed Event
+        /// </summary>
+
+        public static void GravshipLanded()
+        {
+            if (Current.ProgramState == ProgramState.Playing)
+            {
+                foreach (var card in AchievementPointManager.GetCards<GravshipLandingTracker>())
+                {
+                    try
+                    {
+                        if ((card.tracker as GravshipLandingTracker).Trigger())
+                        {
+                            card.UnlockCard();
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Log.Error($"Unable to trigger event for card validation. To avoid further errors {card.def.LabelCap} has been automatically unlocked.\n\nException={ex.Message}");
+                        card.UnlockCard();
+                    }
+                }
+            }
+        }
+    }
 }

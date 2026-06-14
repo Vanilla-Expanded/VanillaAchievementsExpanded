@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_GravshipLandings</defName>
+		<label>Gravship landing</label>
+		<description>Defeat a mech cluster</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.GravshipLandingTracker">
+			<count>1</count>
+		</tracker>
+		<texPath>Achievements/VAE_WarAgainstTheMachines</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	
+</Defs>
