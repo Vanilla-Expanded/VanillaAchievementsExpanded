@@ -18,7 +18,41 @@
 		<description>Enter two maps</description>
 		<tab>VAE_DLCTab</tab>
 		<tracker Class="AchievementsExpanded.MapEnteringTracker">
-			<count>2</count>
+			<simpleMapVisitCount>2</simpleMapVisitCount>
+		</tracker>
+		<texPath>Achievements/VAE_WarAgainstTheMachines</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_VisitDeserts</defName>
+		<label>Visit a desert and an extreme desert</label>
+		<description>Visit a desert and an extreme desert</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.MapEnteringTracker">
+			<biomesToVisit><li>Desert</li><li>ExtremeDesert</li></biomesToVisit>
+		</tracker>
+		<texPath>Achievements/VAE_WarAgainstTheMachines</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_VisitMutators</defName>
+		<label>Visit rivers</label>
+		<description>Visit river delta and lake</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.MapEnteringTracker">
+			<mutatorsToVisit><li>RiverDelta</li><li>Lake</li></mutatorsToVisit>
+		</tracker>
+		<texPath>Achievements/VAE_WarAgainstTheMachines</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_VisitLandmark</defName>
+		<label>Visit landmark</label>
+		<description>Visit DryLake</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.MapEnteringTracker">
+			<landmarksToVisit><li>DryLake</li></landmarksToVisit>
 		</tracker>
 		<texPath>Achievements/VAE_WarAgainstTheMachines</texPath>
 		<points>10</points>

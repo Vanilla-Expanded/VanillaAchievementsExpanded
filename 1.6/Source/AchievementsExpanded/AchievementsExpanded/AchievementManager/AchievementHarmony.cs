@@ -1071,16 +1071,16 @@ namespace AchievementsExpanded
         /// Map entered
         /// </summary>
 
-        public static void MapEntered()
+        public static void MapEntered(Map __result)
         {
             
                 foreach (var card in AchievementPointManager.GetCards<MapEnteringTracker>())
                 {
                     try
                     {
-                        if ((card.tracker as MapEnteringTracker).Trigger())
+                        if ((card.tracker as MapEnteringTracker).Trigger(__result))
                         {
-                            card.UnlockCard();
+                            card.UnlockCard(passingMap: __result);
                         }
                     }
                     catch (Exception ex)

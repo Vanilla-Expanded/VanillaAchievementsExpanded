@@ -2,3 +2,7 @@ C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaAchievementsE
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaAchievementsExpanded\1.6\Source\AchievementsExpanded\AchievementsExpanded\obj\Debug\AchievementsExpanded.csproj.AssemblyReference.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaAchievementsExpanded\1.6\Source\AchievementsExpanded\AchievementsExpanded\obj\Debug\AchievementsExpanded.csproj.CoreCompileInputs.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaAchievementsExpanded\1.6\Source\AchievementsExpanded\AchievementsExpanded\obj\Debug\AchievementsExpanded.dll
+E:\Steam\steamapps\common\RimWorld\Mods\VanillaAchievementsExpanded\1.6\Assemblies\AchievementsExpanded.dll
+E:\Steam\steamapps\common\RimWorld\Mods\VanillaAchievementsExpanded\1.6\Source\AchievementsExpanded\AchievementsExpanded\obj\Debug\AchievementsExpanded.csproj.AssemblyReference.cache
+E:\Steam\steamapps\common\RimWorld\Mods\VanillaAchievementsExpanded\1.6\Source\AchievementsExpanded\AchievementsExpanded\obj\Debug\AchievementsExpanded.csproj.CoreCompileInputs.cache
+E:\Steam\steamapps\common\RimWorld\Mods\VanillaAchievementsExpanded\1.6\Source\AchievementsExpanded\AchievementsExpanded\obj\Debug\AchievementsExpanded.dll

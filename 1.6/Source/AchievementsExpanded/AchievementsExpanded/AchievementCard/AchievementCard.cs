@@ -88,22 +88,23 @@ namespace AchievementsExpanded
             return $"Achievement_{uniqueHash}";
         }
 
-        public virtual void UnlockCard(bool debugTools = false)
+        public virtual void UnlockCard(bool debugTools = false, Map passingMap = null)
         {
             if (!unlocked)
             {
                 unlocked = true;
-
+                Vector2 vector = Vector2.one;
                 if (Find.CurrentMap != null)
                 {
-                    var vector = Find.WorldGrid.LongLatOf(Find.CurrentMap.Tile);
-                    dateUnlocked = GenDate.DateReadoutStringAt(Find.TickManager.TicksAbs, vector);
+                     vector = Find.WorldGrid.LongLatOf(Find.CurrentMap.Tile);
+                   
                 }
-                else
+                else if(passingMap!=null)
                 {
-                    dateUnlocked = "";
+                     vector = Find.WorldGrid.LongLatOf(passingMap.Tile); 
+                    
                 }
-
+                dateUnlocked = GenDate.DateReadoutStringAt(Find.TickManager.TicksAbs, vector);
                 Current.Game.GetComponent<AchievementPointManager>().AddPoints(def.points);
                 DefDatabase<SoundDef>.GetNamed("LetterArrive_Good").PlayOneShotOnCamera();
                 DebugWriter.Log($"Unlocking: {GetUniqueLoadID()} Card: {def.label}");
