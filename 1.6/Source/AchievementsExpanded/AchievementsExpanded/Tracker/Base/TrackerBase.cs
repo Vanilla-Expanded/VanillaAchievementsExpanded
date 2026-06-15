@@ -57,10 +57,16 @@ namespace AchievementsExpanded
 		/// <remarks>Useful when you need to check Trigger periodically rather than event based</remarks>
 		public virtual Func<bool> AttachToLongTick => null;
 
-		/// <summary>
-		/// Checked on startup to determine if card should be unlocked
-		/// </summary>
-		public virtual bool UnlockOnStartup => false;
+        /// <summary>
+        /// Attach anonymous function to Daily tick (~60000 ticks)
+        /// </summary>
+        /// <remarks>Useful when you need to check Trigger periodically rather than event based</remarks>
+        public virtual Func<bool> AttachToDailyTick => null;
+
+        /// <summary>
+        /// Checked on startup to determine if card should be unlocked
+        /// </summary>
+        public virtual bool UnlockOnStartup => false;
 
 		/// <summary>
 		/// Percentage complete of the current tracker. Only inherit if you want the completion bar to be displayed

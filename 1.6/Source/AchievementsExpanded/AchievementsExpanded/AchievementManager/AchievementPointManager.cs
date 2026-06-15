@@ -18,8 +18,10 @@ namespace AchievementsExpanded
 		internal static Dictionary<Type, string> typeToKey = new Dictionary<Type, string>();
 
 		internal static HashSet<AchievementCard> tickerAchievements = new HashSet<AchievementCard>();
+        internal static HashSet<AchievementCard> dailyTickerAchievements = new HashSet<AchievementCard>();
 
-		internal HashSet<AchievementCard> achievementList;
+
+        internal HashSet<AchievementCard> achievementList;
 		internal Stack<AchievementCard> unlockedCards;
 
 		internal static HashSet<AchievementCard> AchievementList => Current.Game?.GetComponent<AchievementPointManager>()?.achievementList ?? new HashSet<AchievementCard>();
@@ -89,7 +91,9 @@ namespace AchievementsExpanded
 			achievementLookup = AchievementGenerator.GenerateAchievementLinks(achievementList);
 			typeToKey.Clear();
 			tickerAchievements.Clear();
-			if(debug)
+            dailyTickerAchievements.Clear();
+
+            if (debug)
 				DebugWriter.Log($"Verifying Achievement List");
 			AchievementGenerator.VerifyAchievementList(ref achievementList, debug);
 
@@ -116,7 +120,9 @@ namespace AchievementsExpanded
 			achievementLookup = AchievementGenerator.GenerateAchievementLinks(achievementList);
 			typeToKey.Clear();
 			tickerAchievements.Clear();
-		}
+            dailyTickerAchievements.Clear();
+
+        }
 
 		public void ResetPoints()
 		{
@@ -189,7 +195,16 @@ namespace AchievementsExpanded
 			return tickerAchievements;
 		}
 
-		public override void GameComponentTick()
+        public static HashSet<AchievementCard> GetDailyTickCards()
+        {
+            if (dailyTickerAchievements.EnumerableNullOrEmpty())
+            {
+                dailyTickerAchievements.AddRange(AchievementList.Where(a => a.tracker.AttachToDailyTick != null && !a.unlocked));
+            }
+            return dailyTickerAchievements;
+        }
+
+        public override void GameComponentTick()
 		{
 			if (unlockedCards.Any() && !Find.WindowStack.Windows.Any(w => w.GetType() == typeof(AchievementNotification)))
 			{
@@ -201,7 +216,6 @@ namespace AchievementsExpanded
 		{
 			Scribe_Values.Look(ref availablePoints, "points");
 			Scribe_Values.Look(ref totalEarnedPoints, "totalEarnedPoints");
-
 			Scribe_Collections.Look(ref achievementList, "achievementList", LookMode.Deep);
 		}
 	}

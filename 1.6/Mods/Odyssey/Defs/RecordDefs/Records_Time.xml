@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecordDef>
+		<defName>VAE_TimeInSpace</defName>
+		<label>time in space</label>
+		<description>Total time spent in space.</description>
+		<type>Time</type>
+		<workerClass>AchievementsExpanded.RecordWorker_TimeInSpace</workerClass>
+	</RecordDef>
+	
+	<RecordDef>
+		<defName>VAE_TimeInHotSprings</defName>
+		<label>time in hot springs</label>
+		<description>Total time spent in hot spring water.</description>
+		<type>Time</type>
+		<workerClass>AchievementsExpanded.RecordWorker_TimeInHotSprings</workerClass>
+	</RecordDef>
+</Defs>

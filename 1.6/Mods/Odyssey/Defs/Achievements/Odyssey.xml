@@ -57,5 +57,73 @@
 		<texPath>Achievements/VAE_WarAgainstTheMachines</texPath>
 		<points>10</points>
 	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_VisitObject</defName>
+		<label>Visit asteroid</label>
+		<description>Visit asteroid</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.MapEnteringTracker">
+			<mapGeneratorsToVisit><li>AsteroidBasic</li></mapGeneratorsToVisit>
+		</tracker>
+		<texPath>Achievements/VAE_WarAgainstTheMachines</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_AbandonMap</defName>
+		<label>Abandon Map</label>
+		<description>Abandon Map</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.AbandonedMapTracker">
+			<count>1</count>
+		</tracker>
+		<texPath>Achievements/VAE_WarAgainstTheMachines</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_Substructure</defName>
+		<label>Substructure</label>
+		<description>Get 200 Substructure</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.GravEngineSubstructureTracker">
+			<count>200</count>
+		</tracker>
+		<texPath>Achievements/VAE_WarAgainstTheMachines</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_HostilesAboard</defName>
+		<label>HostilesAboard</label>
+		<description>5 Hostiles Aboard</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.GravshipLaunchContentsTracker">
+			<hostilesOnLiftoff>5</hostilesOnLiftoff>
+		</tracker>
+		<texPath>Achievements/VAE_WarAgainstTheMachines</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_HostilesOutside</defName>
+		<label>HostilesOutside</label>
+		<description>5 Hostiles Outside</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.GravshipLaunchContentsTracker">
+			<hostilesOnLiftoff>5</hostilesOnLiftoff>
+			<gravshipPosition>Outside</gravshipPosition>
+		</tracker>
+		<texPath>Achievements/VAE_WarAgainstTheMachines</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_DresserAndBed</defName>
+		<label>DresserAndBed</label>
+		<description>DresserAndBed</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.GravshipLaunchContentsTracker">
+			<itemsPresent><li>Dresser</li><li>Bed</li></itemsPresent>
+		</tracker>
+		<texPath>Achievements/VAE_WarAgainstTheMachines</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
 	
 </Defs>

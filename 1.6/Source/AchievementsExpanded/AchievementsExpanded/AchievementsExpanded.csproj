@@ -97,6 +97,9 @@
     <Compile Include="AchievementManager\Debugging\AchievementDebugAction.cs" />
     <Compile Include="AchievementManager\Debugging\DebugActionsSetup.cs" />
     <Compile Include="AchievementManager\Debugging\DebugWriter.cs" />
+    <Compile Include="DefOfs\InternalDefOf.cs" />
+    <Compile Include="RecordWorkers\RecordWorker_TimeInHotSprings.cs" />
+    <Compile Include="RecordWorkers\RecordWorker_TimeInSpace.cs" />
     <Compile Include="Rewards\Reward_MapIncident.cs" />
     <Compile Include="Rewards\Reward_RandomQuest.cs" />
     <Compile Include="Rewards\Reward_RandomEvent.cs" />
@@ -115,7 +118,10 @@
     <Compile Include="Tracker\Abilities\AbilityUseTracker.cs" />
     <Compile Include="Tracker\Misc\IngestionTracker.cs" />
     <Compile Include="Tracker\Misc\ModAmountTracker.cs" />
+    <Compile Include="Tracker\Odyssey\AbandonedMapTracker.cs" />
+    <Compile Include="Tracker\Odyssey\GravEngineSubstructureTracker.cs" />
     <Compile Include="Tracker\Odyssey\GravshipLandingTracker.cs" />
+    <Compile Include="Tracker\Odyssey\GravshipLaunchContentsTracker.cs" />
     <Compile Include="Tracker\Odyssey\MapEnteringTracker.cs" />
     <Compile Include="Tracker\PawnJoined\SlaveJoinedTracker.cs" />
     <Compile Include="Tracker\PawnJoined\PrisonerJoinedTracker.cs" />

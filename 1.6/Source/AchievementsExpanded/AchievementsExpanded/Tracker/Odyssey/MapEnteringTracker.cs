@@ -22,11 +22,13 @@ namespace AchievementsExpanded
         public List<BiomeDef> biomesToVisit = new List<BiomeDef>();
         public List<TileMutatorDef> mutatorsToVisit = new List<TileMutatorDef>();
         public List<LandmarkDef> landmarksToVisit = new List<LandmarkDef>();
+        public List<MapGeneratorDef> mapGeneratorsToVisit = new List<MapGeneratorDef>();
 
         protected int triggeredCount;
         protected List<string> biomesVisited = new List<string>();
         protected List<string> mutatorsVisited = new List<string>();
         protected List<string> landmarksVisited = new List<string>();
+        protected List<string> mapGeneratorsVisited = new List<string>();
 
 
         public override MethodInfo MethodHook => AccessTools.Method(typeof(GetOrGenerateMapUtility), nameof(GetOrGenerateMapUtility.GetOrGenerateMap),
@@ -48,6 +50,8 @@ namespace AchievementsExpanded
             biomesToVisit = reference.biomesToVisit;
             mutatorsToVisit = reference.mutatorsToVisit;
             landmarksToVisit = reference.landmarksToVisit;
+            mapGeneratorsToVisit = reference.mapGeneratorsToVisit;
+
             triggeredCount = 0;
         }
 
@@ -58,6 +62,12 @@ namespace AchievementsExpanded
             Scribe_Collections.Look(ref biomesVisited, "biomesVisited");
             Scribe_Collections.Look(ref mutatorsVisited, "mutatorsVisited");
             Scribe_Collections.Look(ref landmarksVisited, "landmarksVisited");
+            Scribe_Collections.Look(ref mapGeneratorsVisited, "worldObjectsVisited");
+            Scribe_Collections.Look(ref biomesToVisit, "biomesToVisit");
+            Scribe_Collections.Look(ref mutatorsToVisit, "mutatorsToVisit");
+            Scribe_Collections.Look(ref landmarksToVisit, "landmarksToVisit");
+            Scribe_Collections.Look(ref mapGeneratorsToVisit, "worldObjectsToVisit");
+
         }
 
         public override bool Trigger(Map map)
@@ -67,7 +77,8 @@ namespace AchievementsExpanded
             var biome = map.TileInfo?.PrimaryBiome;
             var mutators = map.TileInfo?.Mutators;
             var landmark = map.TileInfo?.Landmark;
-          
+            var mapGenerator = map.generatorDef;      
+
             bool biomeFlag = false;
             if (biomesToVisit.NullOrEmpty())
             {
@@ -109,6 +120,17 @@ namespace AchievementsExpanded
                 landmarkFlag = landmarksToVisit.All(m => landmarksVisited.Contains(m.defName));
             }
 
+            bool mapGeneratorFlag = false;
+            if (mapGeneratorsToVisit.NullOrEmpty())
+            {
+                mapGeneratorFlag = true;
+            }
+            else if (mapGenerator != null && (mapGeneratorsToVisit.Contains(mapGenerator) && !mapGeneratorsVisited.Contains(mapGenerator.defName)))
+            {
+                mapGeneratorsVisited.Add(mapGenerator.defName);
+                mapGeneratorFlag = mapGeneratorsToVisit.All(m => mapGeneratorsVisited.Contains(m.defName));
+            }
+
             bool simpleCount = simpleMapVisitCount > 0;
 
             if (simpleCount)
@@ -121,7 +143,7 @@ namespace AchievementsExpanded
                 return false;
             }
             
-            return biomeFlag && mutatorsFlag && landmarkFlag;
+            return biomeFlag && mutatorsFlag && landmarkFlag && mapGeneratorFlag;
 
         }
     }

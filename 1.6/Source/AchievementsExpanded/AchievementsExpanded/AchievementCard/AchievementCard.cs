@@ -105,14 +105,16 @@ namespace AchievementsExpanded
                     
                 }
                 dateUnlocked = GenDate.DateReadoutStringAt(Find.TickManager.TicksAbs, vector);
-                Current.Game.GetComponent<AchievementPointManager>().AddPoints(def.points);
+                AchievementPointManager manager = Current.Game.GetComponent<AchievementPointManager>();
+                manager?.AddPoints(def.points);
                 DefDatabase<SoundDef>.GetNamed("LetterArrive_Good").PlayOneShotOnCamera();
                 DebugWriter.Log($"Unlocking: {GetUniqueLoadID()} Card: {def.label}");
                 if (debugTools)
                 {
                     DebugWriter.Log($"[Unlocked with DebugTools]");
                 }
-                Current.Game.GetComponent<AchievementPointManager>().DisplayCardWindow(this);
+                manager?.DisplayCardWindow(this);
+               
             }
         }
 
