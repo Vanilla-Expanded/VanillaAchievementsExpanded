@@ -27,6 +27,7 @@ namespace AchievementsExpanded
         public int hostilesOnLiftoff =0;
         public int crewOnLiftoff = 0;
         public int animalsOnLiftoff = 0;
+        public ThingDef specificAnimal = null;
         public List<ThingDef> itemsPresent = new List<ThingDef>();
         public GravshipPosition gravshipPosition = GravshipPosition.Inside;
 
@@ -50,6 +51,7 @@ namespace AchievementsExpanded
             animalsOnLiftoff = reference.animalsOnLiftoff;
             itemsPresent = reference.itemsPresent;
             gravshipPosition = reference.gravshipPosition;
+            specificAnimal = reference.specificAnimal;
 
             triggeredCount = 0;
         }
@@ -62,6 +64,7 @@ namespace AchievementsExpanded
             Scribe_Values.Look(ref animalsOnLiftoff, "animalsOnLiftoff", 0);
             Scribe_Collections.Look(ref itemsPresent, "itemsPresent", LookMode.Def);
             Scribe_Values.Look(ref gravshipPosition, "gravshipPosition", GravshipPosition.Inside);
+            Scribe_Defs.Look(ref specificAnimal, "specificAnimal");
 
             Scribe_Values.Look(ref triggeredCount, "triggeredCount", 0);
 
@@ -89,7 +92,7 @@ namespace AchievementsExpanded
                 }
                 if (animalsOnLiftoff != 0)
                 {
-                    triggeredCount = engine.Map.mapPawns.AllPawns.Where(x => x.Faction.IsPlayer && x.RaceProps.Animal && engine.ValidSubstructureAt(x.PositionHeld) == inside).Count();
+                    triggeredCount = engine.Map.mapPawns.AllPawns.Where(x => x.Faction.IsPlayer && x.RaceProps.Animal && (specificAnimal is null || x.def == specificAnimal) && engine.ValidSubstructureAt(x.PositionHeld) == inside).Count();
                     return triggeredCount >= animalsOnLiftoff;
                 }
                 if (!itemsPresent.NullOrEmpty())

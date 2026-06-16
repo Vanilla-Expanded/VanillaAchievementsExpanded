@@ -67,6 +67,8 @@ namespace AchievementsExpanded
         public override bool Trigger(Gravship gravship)
         {
             base.Trigger();
+
+           
             if (count > 0)
             {
                 triggeredCount++;

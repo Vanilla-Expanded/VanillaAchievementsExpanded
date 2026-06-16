@@ -13,6 +13,7 @@ namespace AchievementsExpanded
 		public bool onlyCountSlaves = false;
         public bool onlyCountGhouls = false;
         public bool countAllMapPawns = false;
+        public ThingDef specificDef = null;
 
         protected int triggeredCount;
 
@@ -42,6 +43,7 @@ namespace AchievementsExpanded
             onlyCountSlaves = reference.onlyCountSlaves;
             onlyCountGhouls = reference.onlyCountGhouls;
             countAllMapPawns= reference.countAllMapPawns;
+            specificDef = reference.specificDef;
 
 
         }
@@ -55,14 +57,16 @@ namespace AchievementsExpanded
             Scribe_Values.Look(ref onlyCountGhouls, "onlyCountGhouls", false);
             Scribe_Values.Look(ref countAllMapPawns, "countAllMapPawns", false);
             Scribe_Values.Look(ref triggeredCount, "triggeredCount");
-		}
+            Scribe_Defs.Look(ref specificDef, "specificDef");
 
-		public override (float percent, string text) PercentComplete => count > 1 ? ((float)triggeredCount / count, $"{triggeredCount} / {count}") : base.PercentComplete;
+        }
+
+        public override (float percent, string text) PercentComplete => count > 1 ? ((float)triggeredCount / count, $"{triggeredCount} / {count}") : base.PercentComplete;
 
 		public override bool Trigger(Hediff hediff)
 		{
 			if (hediff?.pawn != null && (countAllMapPawns || (!countAllMapPawns && hediff.pawn.Faction == Faction.OfPlayerSilentFail)) && (!onlyCountSlaves ||(onlyCountSlaves && hediff.pawn.IsSlaveOfColony))
-                 && (!onlyCountGhouls || (onlyCountGhouls && hediff.pawn.IsGhoul))
+                 && (!onlyCountGhouls || (onlyCountGhouls && hediff.pawn.IsGhoul)) && (specificDef is null || hediff.pawn.def == specificDef)
                 && (def is null || def == hediff.def))
 			{
 				triggeredCount++;

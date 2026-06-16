@@ -1,129 +1,421 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<AchievementsExpanded.AchievementDef>
-		<defName>VAE_GravshipLandings</defName>
-		<label>Gravship landing</label>
-		<description>Land a gravship</description>
+		<defName>VAE_GravshipLanding</defName>
+		<label>To Boldly Go</label>
+		<description>Land a gravship 10 different times</description>
 		<tab>VAE_DLCTab</tab>
 		<tracker Class="AchievementsExpanded.GravshipLandingTracker">
-			<count>1</count>
+			<count>10</count>
 		</tracker>
-		<texPath>Achievements/VAE_WarAgainstTheMachines</texPath>
-		<points>10</points>
+		<texPath>Achievements/VAE_GravshipLanding</texPath>
+		<points>25</points>
 	</AchievementsExpanded.AchievementDef>
-	
 	<AchievementsExpanded.AchievementDef>
-		<defName>VAE_EnterTwoMaps</defName>
-		<label>Enter two maps</label>
-		<description>Enter two maps</description>
+		<defName>VAE_GravshipLandingIncidents</defName>
+		<label>Crash Course</label>
+		<description>Land a gravship with a landing incident 10 different times</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.GravshipLandingTracker">
+			<incidentCount>10</incidentCount>
+		</tracker>
+		<texPath>Achievements/VAE_GravshipLandingIncidents</texPath>
+		<points>50</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_VisitMaps</defName>
+		<label>World tour</label>
+		<description>Visit 30 different regions in the world</description>
 		<tab>VAE_DLCTab</tab>
 		<tracker Class="AchievementsExpanded.MapEnteringTracker">
-			<simpleMapVisitCount>2</simpleMapVisitCount>
+			<simpleMapVisitCount>30</simpleMapVisitCount>
 		</tracker>
-		<texPath>Achievements/VAE_WarAgainstTheMachines</texPath>
-		<points>10</points>
+		<texPath>Achievements/VAE_VisitMaps</texPath>
+		<points>25</points>
 	</AchievementsExpanded.AchievementDef>
-	
 	<AchievementsExpanded.AchievementDef>
 		<defName>VAE_VisitDeserts</defName>
-		<label>Visit a desert and an extreme desert</label>
-		<description>Visit a desert and an extreme desert</description>
+		<label>Parched and dry</label>
+		<description>Visit a Desert and an Extreme desert</description>
 		<tab>VAE_DLCTab</tab>
 		<tracker Class="AchievementsExpanded.MapEnteringTracker">
-			<biomesToVisit><li>Desert</li><li>ExtremeDesert</li></biomesToVisit>
+			<biomesToVisit>
+				<li>Desert</li>
+				<li>ExtremeDesert</li>
+			</biomesToVisit>
 		</tracker>
-		<texPath>Achievements/VAE_WarAgainstTheMachines</texPath>
+		<texPath>Achievements/VAE_VisitDeserts</texPath>
 		<points>10</points>
 	</AchievementsExpanded.AchievementDef>
 	<AchievementsExpanded.AchievementDef>
-		<defName>VAE_VisitMutators</defName>
-		<label>Visit rivers</label>
-		<description>Visit river delta and lake</description>
+		<defName>VAE_VisitIcy</defName>
+		<label>Subzero</label>
+		<description>Visit the Tundra, Icy Sea and Ice Sheet biomes</description>
 		<tab>VAE_DLCTab</tab>
 		<tracker Class="AchievementsExpanded.MapEnteringTracker">
-			<mutatorsToVisit><li>RiverDelta</li><li>Lake</li></mutatorsToVisit>
+			<biomesToVisit>
+				<li>Tundra</li>
+				<li>SeaIce</li>
+				<li>IceSheet</li>
+			</biomesToVisit>
 		</tracker>
-		<texPath>Achievements/VAE_WarAgainstTheMachines</texPath>
+		<texPath>Achievements/VAE_VisitIcy</texPath>
+		<points>15</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_VisitSwamps</defName>
+		<label>Get Out of my Swamp!</label>
+		<description>Visit a Tropical swamp, Temperate swamp and Cold bog</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.MapEnteringTracker">
+			<biomesToVisit>
+				<li>TropicalSwamp</li>
+				<li>TemperateSwamp</li>
+				<li>ColdBog</li>
+			</biomesToVisit>
+		</tracker>
+		<texPath>Achievements/VAE_VisitSwamps</texPath>
 		<points>10</points>
 	</AchievementsExpanded.AchievementDef>
 	<AchievementsExpanded.AchievementDef>
-		<defName>VAE_VisitLandmark</defName>
-		<label>Visit landmark</label>
-		<description>Visit DryLake</description>
+		<defName>VAE_OdysseyBiomes</defName>
+		<label>Odysseus</label>
+		<description>Visit the five new biomes introduced in Odyssey</description>
 		<tab>VAE_DLCTab</tab>
 		<tracker Class="AchievementsExpanded.MapEnteringTracker">
-			<landmarksToVisit><li>DryLake</li></landmarksToVisit>
+			<biomesToVisit>
+				<li>Grasslands</li>
+				<li>GlacialPlain</li>
+				<li>Glowforest</li>
+				<li>LavaField</li>
+				<li>Scarlands</li>
+			</biomesToVisit>
 		</tracker>
-		<texPath>Achievements/VAE_WarAgainstTheMachines</texPath>
+		<texPath>Achievements/VAE_OdysseyBiomes</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_VisitScar</defName>
+		<label>Scarred and deformed</label>
+		<description>Visit a terraforming scar</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.MapEnteringTracker">
+			<landmarksToVisit>
+				<li>TerraformingScar</li>
+			</landmarksToVisit>
+		</tracker>
+		<texPath>Achievements/VAE_VisitScar</texPath>
 		<points>10</points>
 	</AchievementsExpanded.AchievementDef>
 	<AchievementsExpanded.AchievementDef>
-		<defName>VAE_VisitObject</defName>
-		<label>Visit asteroid</label>
-		<description>Visit asteroid</description>
+		<defName>VAE_VisitAtoll</defName>
+		<label>Tropical paradise</label>
+		<description>Visit a coastal atoll</description>
 		<tab>VAE_DLCTab</tab>
 		<tracker Class="AchievementsExpanded.MapEnteringTracker">
-			<mapGeneratorsToVisit><li>AsteroidBasic</li></mapGeneratorsToVisit>
+			<landmarksToVisit>
+				<li>CoastalAtoll</li>
+			</landmarksToVisit>
 		</tracker>
-		<texPath>Achievements/VAE_WarAgainstTheMachines</texPath>
+		<texPath>Achievements/VAE_VisitAtoll</texPath>
 		<points>10</points>
 	</AchievementsExpanded.AchievementDef>
 	<AchievementsExpanded.AchievementDef>
-		<defName>VAE_AbandonMap</defName>
-		<label>Abandon Map</label>
-		<description>Abandon Map</description>
+		<defName>VAE_VisitRefinery</defName>
+		<label>Need more juice</label>
+		<description>Visit an ancient chemfuel refinery</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.MapEnteringTracker">
+			<landmarksToVisit>
+				<li>AncientChemfuelRefinery</li>
+			</landmarksToVisit>
+		</tracker>
+		<texPath>Achievements/VAE_VisitRefinery</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_VisitRivers</defName>
+		<label>Let it Flow</label>
+		<description>Visit River, River delta, Headwarer, River confluence and River island</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.MapEnteringTracker">
+			<mutatorsToVisit>
+				<li>RiverDelta</li>
+				<li>River</li>
+				<li>Headwater</li>
+				<li>RiverConfluence</li>
+				<li>RiverIsland</li>
+			</mutatorsToVisit>
+		</tracker>
+		<texPath>Achievements/VAE_VisitRivers</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_VisitIcyFeatures</defName>
+		<label>Frozen Treasures</label>
+		<description>Visit an Iceberg, Ice dunes and Frozen ruins</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.MapEnteringTracker">
+			<mutatorsToVisit>
+				<li>AncientRuins_Frozen</li>
+				<li>Iceberg</li>
+				<li>IceDunes</li>
+			</mutatorsToVisit>
+		</tracker>
+		<texPath>Achievements/VAE_VisitIcyFeatures</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_VisitLakes</defName>
+		<label>Shore Vibes</label>
+		<description>Visit a Lake, Dry lake, Toxic lake and Lava lake</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.MapEnteringTracker">
+			<mutatorsToVisit>
+				<li>Lake</li>
+				<li>DryLake</li>
+				<li>ToxicLake</li>
+				<li>LavaLake</li>
+			</mutatorsToVisit>
+		</tracker>
+		<texPath>Achievements/VAE_VisitLakes</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_VisitAsteroid</defName>
+		<label>Pebble in the Sky</label>
+		<description>Visit a basic asteroid</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.MapEnteringTracker">
+			<mapGeneratorsToVisit>
+				<li>AsteroidBasic</li>
+			</mapGeneratorsToVisit>
+		</tracker>
+		<texPath>Achievements/VAE_VisitAsteroid</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_VisitDestroyedSpaceSettlement</defName>
+		<label>Space Raiders</label>
+		<description>Visit a Space settlement</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.MapEnteringTracker">
+			<mapGeneratorsToVisit>
+				<li>SettlementPlatform</li>
+			</mapGeneratorsToVisit>
+		</tracker>
+		<texPath>Achievements/VAE_VisitDestroyedSpaceSettlement</texPath>
+		<points>15</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_AbandonMaps</defName>
+		<label>Ecological Disaster</label>
+		<description>Abandon (and destroy) 20 regions of the world with your gravship</description>
 		<tab>VAE_DLCTab</tab>
 		<tracker Class="AchievementsExpanded.AbandonedMapTracker">
-			<count>1</count>
+			<count>20</count>
 		</tracker>
-		<texPath>Achievements/VAE_WarAgainstTheMachines</texPath>
-		<points>10</points>
+		<texPath>Achievements/VAE_AbandonMaps</texPath>
+		<points>50</points>
 	</AchievementsExpanded.AchievementDef>
-	
 	<AchievementsExpanded.AchievementDef>
-		<defName>VAE_Substructure</defName>
-		<label>Substructure</label>
-		<description>Get 200 Substructure</description>
+		<defName>VAE_Substructure_Minor</defName>
+		<label>Laying Down Foundations</label>
+		<description>Get 200 Substructure in your gravship</description>
 		<tab>VAE_DLCTab</tab>
 		<tracker Class="AchievementsExpanded.GravEngineSubstructureTracker">
 			<count>200</count>
 		</tracker>
-		<texPath>Achievements/VAE_WarAgainstTheMachines</texPath>
+		<texPath>Achievements/VAE_Substructure_Minor</texPath>
 		<points>10</points>
 	</AchievementsExpanded.AchievementDef>
 	<AchievementsExpanded.AchievementDef>
-		<defName>VAE_HostilesAboard</defName>
-		<label>HostilesAboard</label>
-		<description>5 Hostiles Aboard</description>
+		<defName>VAE_Substructure_Medium</defName>
+		<label>Frigate of the Skies</label>
+		<description>Get 500 Substructure in your gravship</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.GravEngineSubstructureTracker">
+			<count>500</count>
+		</tracker>
+		<texPath>Achievements/VAE_Substructure_Medium</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_Substructure_Major</defName>
+		<label>Battlecruiser Operational</label>
+		<description>Get 1500 Substructure in your gravship</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.GravEngineSubstructureTracker">
+			<count>1500</count>
+		</tracker>
+		<texPath>Achievements/VAE_Substructure_Major</texPath>
+		<points>75</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_HostilesWithin</defName>
+		<label>The Enemy Within</label>
+		<description>Launch your gravship with 5 hostile humans inside</description>
 		<tab>VAE_DLCTab</tab>
 		<tracker Class="AchievementsExpanded.GravshipLaunchContentsTracker">
 			<hostilesOnLiftoff>5</hostilesOnLiftoff>
 		</tracker>
-		<texPath>Achievements/VAE_WarAgainstTheMachines</texPath>
-		<points>10</points>
+		<texPath>Achievements/VAE_HostilesWithin</texPath>
+		<points>25</points>
 	</AchievementsExpanded.AchievementDef>
 	<AchievementsExpanded.AchievementDef>
-		<defName>VAE_HostilesOutside</defName>
-		<label>HostilesOutside</label>
-		<description>5 Hostiles Outside</description>
+		<defName>VAE_LeaveHostilesOutside</defName>
+		<label>So Long, Suckers!</label>
+		<description>Launch your gravship with 50 hostile humans outside</description>
 		<tab>VAE_DLCTab</tab>
 		<tracker Class="AchievementsExpanded.GravshipLaunchContentsTracker">
-			<hostilesOnLiftoff>5</hostilesOnLiftoff>
+			<hostilesOnLiftoff>50</hostilesOnLiftoff>
 			<gravshipPosition>Outside</gravshipPosition>
 		</tracker>
-		<texPath>Achievements/VAE_WarAgainstTheMachines</texPath>
+		<texPath>Achievements/VAE_LeaveHostilesOutside</texPath>
+		<points>50</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_LeftBehind</defName>
+		<label>Left Behind</label>
+		<description>Leave one of your colonists behind when launching the gravship</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.GravshipLaunchContentsTracker">
+			<crewOnLiftoff>1</crewOnLiftoff>
+			<gravshipPosition>Outside</gravshipPosition>
+		</tracker>
+		<texPath>Achievements/VAE_LeftBehind</texPath>
 		<points>10</points>
 	</AchievementsExpanded.AchievementDef>
 	<AchievementsExpanded.AchievementDef>
-		<defName>VAE_DresserAndBed</defName>
-		<label>DresserAndBed</label>
-		<description>DresserAndBed</description>
+		<defName>VAE_DiverseCrew</defName>
+		<label>Diverse Crew</label>
+		<description>Launch a gravship with a crew of 10 people</description>
 		<tab>VAE_DLCTab</tab>
 		<tracker Class="AchievementsExpanded.GravshipLaunchContentsTracker">
-			<itemsPresent><li>Dresser</li><li>Bed</li></itemsPresent>
+			<crewOnLiftoff>10</crewOnLiftoff>
 		</tracker>
-		<texPath>Achievements/VAE_WarAgainstTheMachines</texPath>
-		<points>10</points>
+		<texPath>Achievements/VAE_DiverseCrew</texPath>
+		<points>15</points>
 	</AchievementsExpanded.AchievementDef>
-	
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_SpaceChickens</defName>
+		<label>Kurzgesagt</label>
+		<description>Launch a gravship with 10 chicken aboard</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.GravshipLaunchContentsTracker">
+			<animalsOnLiftoff>10</animalsOnLiftoff>
+			<specificAnimal>Chicken</specificAnimal>
+		</tracker>
+		<texPath>Achievements/VAE_SpaceChickens</texPath>
+		<points>15</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_LargeThrusters</defName>
+		<label>Maximum Thrust</label>
+		<description>Build 6 large thrusters on your gravship</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.BuildingTracker">
+			<def>LargeThruster</def>
+			<count>6</count>
+		</tracker>
+		<texPath>Achievements/VAE_LargeThrusters</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_DestroyMechHive</defName>
+		<label>Hasta la Vista, Baby</label>
+		<description>Destroy a mech hive</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.ThoughtTracker">
+			<def>DestroyedMechhive</def>
+		</tracker>
+		<texPath>Achievements/VAE_DestroyMechHive</texPath>
+		<points>100</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_GravlitePanels</defName>
+		<label>Gravlite Hoarder</label>
+		<description>Amass a total of 1000 gravlite panels</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.ItemTracker">
+			<def>GravlitePanel</def>
+			<count>1000</count>
+		</tracker>
+		<texPath>Achievements/VAE_GravlitePanels</texPath>
+		<points>50</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_SmarterThrumbo</defName>
+		<label>Smartest Guy Around</label>
+		<description>Use a sentience catalyst on an Alpha thrumbo</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.HediffTracker">
+			<def>SentienceCatalyst</def>
+			<specificDef>AlphaThrumbo</specificDef>
+		</tracker>
+		<texPath>Achievements/VAE_SmarterThrumbo</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_StayInHotSprings</defName>
+		<label>Pruney Skin</label>
+		<description>Have a colonist spend a whole year in total inside hot spring water.</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.RecordTimeTracker">
+			<def>VAE_TimeInHotSprings</def>
+			<count>3600000</count>
+		</tracker>
+		<texPath>Achievements/VAE_StayInHotSprings</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_StayInSpace</defName>
+		<label>The Final Frontier</label>
+		<description>Have a colonist spend a whole year in space.</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.RecordTimeTracker">
+			<def>VAE_TimeInSpace</def>
+			<count>3600000</count>
+		</tracker>
+		<texPath>Achievements/VAE_StayInSpace</texPath>
+		<points>50</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_GravshipBuildings</defName>
+		<label>Optimized Launches</label>
+		<description>Launch a gravship with a Fuel optimizer, Pilot subpersona core and Gravship shield generator</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.GravshipLaunchContentsTracker">
+			<itemsPresent>
+				<li>GravshipShieldGenerator</li>
+				<li>PilotSubpersonaCore</li>
+				<li>FuelOptimizer</li>
+			</itemsPresent>
+		</tracker>
+		<texPath>Achievements/VAE_GravshipBuildings</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_UniqueWeapons</defName>
+		<label>Unconventional Warfare</label>
+		<description>Get 10 unique weapons</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.ItemTracker">
+			<category>WeaponsUnique</category>
+			<count>10</count>
+		</tracker>
+		<texPath>Achievements/VAE_UniqueWeapons</texPath>
+		<points>50</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_VacuumExposure</defName>
+		<label>No One Can Hear You Scream</label>
+		<description>Have a colonist die in space due to vacuum exposure</description>
+		<tab>VAE_DLCTab</tab>
+		<tracker Class="AchievementsExpanded.HediffDeathTracker">
+			<def>VacuumExposure</def>
+		</tracker>
+		<texPath>Achievements/VAE_VacuumExposure</texPath>
+		<points>5</points>
+	</AchievementsExpanded.AchievementDef>
 </Defs>
