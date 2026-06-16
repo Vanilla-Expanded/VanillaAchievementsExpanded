@@ -96,7 +96,7 @@
 		<defName>VAE_PlatonicSolid</defName>
 		<label>Platonic Solid</label>
 		<blockedUntilMonolithLevel>Waking</blockedUntilMonolithLevel>
-		<description>Contain a Golden Cube. Love the Cube</description>
+		<description>Get 7 colonists obsessed with the Cube. Love the Cube</description>
 		<tab>VAE_DLCTab</tab>
 		
 		<tracker Class="AchievementsExpanded.HediffTracker">
