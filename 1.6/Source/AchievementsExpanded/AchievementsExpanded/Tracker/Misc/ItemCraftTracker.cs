@@ -3,6 +3,9 @@ using System.Reflection;
 using HarmonyLib;
 using Verse;
 using RimWorld;
+using System.Collections.Generic;
+using System.Linq;
+using System.Collections;
 
 namespace AchievementsExpanded
 {
@@ -13,6 +16,8 @@ namespace AchievementsExpanded
 		public QualityCategory? quality;
 		public int count = 1;
         public ThingDef includeingredient;
+        public List<ThingDef> includeAllIngredients = new List<ThingDef>();
+
 
         protected int triggeredCount;
 
@@ -28,6 +33,7 @@ namespace AchievementsExpanded
 		protected override string[] DebugText => new string[] { $"Def: {def?.defName ?? "None"}", 
 																$"MadeFrom: {madeFrom?.defName ?? "Any"}",
                                                                 $"includeingredient: {includeingredient?.defName ?? "Any"}",
+                                                                $"includeAllIngredients: {includeAllIngredients.ToStringSafeEnumerable()}",
                                                                 $"Quality: {quality}", 
 																$"Count: {count}", 
 																$"Current: {triggeredCount}" };
@@ -43,9 +49,11 @@ namespace AchievementsExpanded
 			count = reference.count;
 			triggeredCount = 0;
             includeingredient = reference.includeingredient;
+            includeAllIngredients = reference.includeAllIngredients;
+
         }
 
-		public override (float percent, string text) PercentComplete => count > 1 ? ((float)triggeredCount / count, $"{triggeredCount} / {count}") : base.PercentComplete;
+        public override (float percent, string text) PercentComplete => count > 1 ? ((float)triggeredCount / count, $"{triggeredCount} / {count}") : base.PercentComplete;
 
 		public override void ExposeData()
 		{
@@ -56,9 +64,11 @@ namespace AchievementsExpanded
 			Scribe_Values.Look(ref count, "count", 1);
 			Scribe_Values.Look(ref triggeredCount, "triggeredCount");
             Scribe_Defs.Look(ref includeingredient, "includeingredient");
+            Scribe_Collections.Look(ref includeAllIngredients, "includeAllIngredients", LookMode.Def);
+
         }
 
-		public override bool Trigger(Thing thing)
+        public override bool Trigger(Thing thing)
 		{
 			base.Trigger(thing);
 			
@@ -68,7 +78,9 @@ namespace AchievementsExpanded
 
                 CompIngredients comping = thing.TryGetComp<CompIngredients>();
 
-                if (includeingredient is null || (comping != null && comping.ingredients.Contains(includeingredient)))
+                if ((includeingredient is null || (comping != null && comping.ingredients.Contains(includeingredient)))
+					&& (includeAllIngredients.NullOrEmpty() || (comping != null && comping.ingredients.All(x => includeAllIngredients.Contains(x))))				
+					)
                 {
                     if (quality is null || (thing.TryGetQuality(out var qc) && qc >= quality))
                     {

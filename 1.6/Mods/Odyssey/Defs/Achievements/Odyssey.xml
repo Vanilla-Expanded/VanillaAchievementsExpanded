@@ -221,7 +221,7 @@
 	<AchievementsExpanded.AchievementDef>
 		<defName>VAE_Substructure_Minor</defName>
 		<label>Laying Down Foundations</label>
-		<description>Get 200 Substructure in your gravship</description>
+		<description>Get 200 Substructure in your gravship (checks daily)</description>
 		<tab>VAE_DLCTab</tab>
 		<tracker Class="AchievementsExpanded.GravEngineSubstructureTracker">
 			<count>200</count>
@@ -232,7 +232,7 @@
 	<AchievementsExpanded.AchievementDef>
 		<defName>VAE_Substructure_Medium</defName>
 		<label>Frigate of the Skies</label>
-		<description>Get 500 Substructure in your gravship</description>
+		<description>Get 500 Substructure in your gravship (checks daily)</description>
 		<tab>VAE_DLCTab</tab>
 		<tracker Class="AchievementsExpanded.GravEngineSubstructureTracker">
 			<count>500</count>
@@ -243,7 +243,7 @@
 	<AchievementsExpanded.AchievementDef>
 		<defName>VAE_Substructure_Major</defName>
 		<label>Battlecruiser Operational</label>
-		<description>Get 1500 Substructure in your gravship</description>
+		<description>Get 1500 Substructure in your gravship (checks daily)</description>
 		<tab>VAE_DLCTab</tab>
 		<tracker Class="AchievementsExpanded.GravEngineSubstructureTracker">
 			<count>1500</count>
