@@ -13,6 +13,7 @@ namespace AchievementsExpanded
         public float count = 1;
         public ThingDef ingestorThingDef;
         public List<ThingDef> ingestorsThingDefs;
+        public XenotypeDef ingestorXenotype;
         public ThingDef foodDef;
         public bool checkIfCorpse = false;
         public bool checkIfTree = false;
@@ -51,6 +52,8 @@ namespace AchievementsExpanded
         {
             ingestorThingDef = reference.ingestorThingDef;
             ingestorsThingDefs = reference.ingestorsThingDefs;
+            ingestorXenotype = reference.ingestorXenotype;
+
             foodDef = reference.foodDef;
             checkIfCorpse = reference.checkIfCorpse;
             checkIfTree = reference.checkIfTree;
@@ -82,6 +85,7 @@ namespace AchievementsExpanded
             Scribe_Values.Look(ref onlyCountAnimals, "onlyCountAnimals", false);
             Scribe_Values.Look(ref quality, "quality");         
             Scribe_Defs.Look(ref includeIngredientDef, "includeIngredientDef");
+            Scribe_Defs.Look(ref ingestorXenotype, "ingestorXenotype");
 
         }
 
@@ -102,13 +106,14 @@ namespace AchievementsExpanded
 
             bool ingestorRace = ingestorThingDef is null || ingester.def == ingestorThingDef;
             bool ingestorRaces = ingestorsThingDefs.NullOrEmpty() || ingestorsThingDefs.Contains(ingester.def);
+            bool ingestorXenotypeFlag = ingestorXenotype is null || ingester.genes?.Xenotype == ingestorXenotype;
             bool food = foodDef is null || thingIngested.def == foodDef;
             bool corpse = !checkIfCorpse || thingIngested as Corpse != null;
             bool tree = !checkIfTree || thingIngested.def?.plant?.IsTree == true;
             bool foodQuality = quality is null || thingIngested.TryGetComp<CompQuality>()?.Quality >= quality;
             bool includeIngredient = includeIngredientDef is null || thingIngested.TryGetComp<CompIngredients>()?.ingredients?.Contains(includeIngredientDef)==true;
 
-            return ingestorRace && ingestorRaces && food && tree && corpse && foodQuality && includeIngredient && (count <= 1 || ++triggeredCount >= count);
+            return ingestorRace && ingestorRaces && food && tree && corpse && foodQuality && ingestorXenotypeFlag && includeIngredient && (count <= 1 || ++triggeredCount >= count);
 
         }
     }
