@@ -17,7 +17,7 @@ namespace AchievementsExpanded
 			actionsAdded = new HashSet<MethodInfo>();
 		}
 
-		public static bool GenerateCacheForVAEDebugActions(MethodInfo method, DebugActionAttribute attribute)
+		public static bool GenerateCacheForVAEDebugActions(MethodInfo method, DebugOutputAttribute attribute)
 		{
 			bool vaeActive = UtilityMethods.BaseModActive;
 			if (method.TryGetAttribute(out AchievementDebugAction vaeAttribute))
