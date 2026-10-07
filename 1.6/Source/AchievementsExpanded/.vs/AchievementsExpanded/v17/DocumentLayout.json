@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.6\\Source\\AchievementsExpanded\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\vanillaachievementsexpanded\\1.6\\source\\achievementsexpanded\\achievementsexpanded\\achievementmanager\\debugging\\debugactionssetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\achievementmanager\\debugging\\debugactionssetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.6\\Source\\AchievementsExpanded\\achievementsexpanded\\achievementmanager\\achievementharmony.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\achievementmanager\\achievementharmony.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\vanillaachievementsexpanded\\1.6\\source\\achievementsexpanded\\achievementsexpanded\\ui\\maintabwindow_achievements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\vanillaachievementsexpanded\\1.6\\source\\achievementsexpanded\\achievementsexpanded\\achievementmanager\\debugging\\debugactionssetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\achievementmanager\\debugging\\debugactionssetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.6\\Source\\AchievementsExpanded\\achievementsexpanded\\ui\\maintabwindow_achievements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48F792E5-A23B-4CAC-857D-E62159134512}|AchievementsExpanded\\AchievementsExpanded.csproj|solutionrelative:achievementsexpanded\\ui\\maintabwindow_achievements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -126,24 +126,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DebugActionsSetup.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.6\\Source\\AchievementsExpanded\\AchievementsExpanded\\AchievementManager\\Debugging\\DebugActionsSetup.cs",
               "RelativeDocumentMoniker": "AchievementsExpanded\\AchievementManager\\Debugging\\DebugActionsSetup.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.6\\Source\\AchievementsExpanded\\AchievementsExpanded\\AchievementManager\\Debugging\\DebugActionsSetup.cs",
               "RelativeToolTip": "AchievementsExpanded\\AchievementManager\\Debugging\\DebugActionsSetup.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-02T12:14:20.116Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Document",
@@ -155,8 +155,7 @@
               "RelativeToolTip": "AchievementsExpanded\\UI\\MainTabWindow_Achievements.cs",
               "ViewState": "AgIAANUAAAAAAAAAAAAUwOAAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T11:50:53.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T11:50:53.6Z"
             },
             {
               "$type": "Document",
@@ -208,13 +207,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AchievementHarmony.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.6\\Source\\AchievementsExpanded\\AchievementsExpanded\\AchievementManager\\AchievementHarmony.cs",
               "RelativeDocumentMoniker": "AchievementsExpanded\\AchievementManager\\AchievementHarmony.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAchievementsExpanded\\1.6\\Source\\AchievementsExpanded\\AchievementsExpanded\\AchievementManager\\AchievementHarmony.cs",
               "RelativeToolTip": "AchievementsExpanded\\AchievementManager\\AchievementHarmony.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAgwFIAAABvAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAAFUAAACtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-15T11:55:43.08Z",
               "EditorCaption": ""

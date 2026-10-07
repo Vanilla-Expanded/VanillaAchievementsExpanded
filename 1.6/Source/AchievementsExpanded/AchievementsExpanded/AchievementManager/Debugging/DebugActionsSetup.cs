@@ -14,7 +14,7 @@ namespace AchievementsExpanded
 
 		public static void ClearCachedActions()
 		{
-			actionsAdded = new HashSet<MethodInfo>();
+			actionsAdded.Clear();
 		}
 
 		public static bool GenerateCacheForVAEDebugActions(MethodInfo method, DebugOutputAttribute attribute)
