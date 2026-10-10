@@ -7,6 +7,7 @@ using RimWorld;
 using RimWorld.Planet;
 using UnityEngine;
 using HarmonyLib;
+using VEF.AnimalGenes;
 
 namespace AchievementsExpanded
 {
@@ -336,6 +337,13 @@ namespace AchievementsExpanded
             if (geneDef is null) return false;
             if (pawn.genes is null) return false;
             return pawn.genes.GetGene(geneDef)?.Active ?? false;
+        }
+
+        public static bool HasAnimalGene(this Pawn pawn, AnimalGeneDef geneDef)
+        {
+            if (geneDef is null) return false;
+            if (pawn?.TryGetComp<CompAnimalGenes>() is not CompAnimalGenes comp) return false;
+            return comp.genes?.Contains(geneDef)==true;
         }
 
         public static bool IsWearing(Pawn pawn,ThingDef apparel)

@@ -21,7 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <LangVersion>7.3</LangVersion>
+    <LangVersion>9</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>none</DebugType>
@@ -86,6 +86,10 @@
       <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="VEF">
+      <HintPath>..\..\..\..\..\VanillaExpandedFramework\1.6\Assemblies\VEF.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AchievementCard\AchievementCard.cs" />
@@ -106,6 +110,7 @@
     <Compile Include="Rewards\Reward_RandomQuestItem.cs" />
     <Compile Include="StaticCollectionsClass\StaticCollections.cs" />
     <Compile Include="Tracker\Abilities\AbilityCountTracker.cs" />
+    <Compile Include="Tracker\AnimalGenes\AnimalGeneTracker.cs" />
     <Compile Include="Tracker\Anomaly\NociosphereTracker.cs" />
     <Compile Include="Tracker\Base\GenericTracker.cs" />
     <Compile Include="Tracker\Biotech\BirthsTracker.cs" />
