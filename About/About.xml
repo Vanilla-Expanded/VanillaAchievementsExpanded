@@ -2,10 +2,10 @@
 <ModMetaData>
 	<name>Vanilla Achievements Expanded</name>
 	<author>Oskar Potocki, Smash Phil, Sarg Bjornson</author>
-	<supportedVersions>
-		<li>1.6</li>
-		<li>1.4</li>
+	<supportedVersions>	
 		<li>1.5</li>
+		<li>1.6</li>
+		<li>1.7</li>
 	</supportedVersions>
 	<modIconPath IgnoreIfNoMatchingField="True">UI/VELogo</modIconPath>
 	<modDependencies>
