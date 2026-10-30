@@ -79,6 +79,11 @@ namespace AchievementsExpanded
 
 			Scribe_Values.Look(ref triggeredCount, "triggeredCount", 0);
 			Scribe_Collections.Look(ref killedThings, "killedThings", LookMode.Value);
+			if (Scribe.mode == LoadSaveMode.PostLoadInit && killedThings != null && killedThings.Count > triggeredCount)
+			{
+				// A list longer than the count holds deaths this card didn't count, so clear it
+				killedThings.Clear();
+			}
 		}
 
 		public override (float percent, string text) PercentComplete => count > 1 ? ((float)triggeredCount / count, $"{triggeredCount} / {count}") : base.PercentComplete;
@@ -86,10 +91,6 @@ namespace AchievementsExpanded
 		public override bool Trigger(Pawn pawn, DamageInfo? dinfo)
 		{
 			base.Trigger(pawn, dinfo);
-			if (killedThings.Contains(pawn.GetUniqueLoadID()))
-				return false;
-			else
-				killedThings.Add(pawn.GetUniqueLoadID());
 			bool instigator = instigatorFactionDefs.NullOrEmpty() || (dinfo?.Instigator?.Faction?.def != null && instigatorFactionDefs.Contains(dinfo.Value.Instigator.Faction.def)); 
             bool kind = kindDef is null || pawn.kindDef == kindDef;
             bool instigatorThing = instigatorThingDef is null || dinfo?.Instigator?.def == instigatorThingDef;
@@ -99,7 +100,14 @@ namespace AchievementsExpanded
 			bool xenotype = xenotypeDef is null || pawn.genes?.Xenotype == xenotypeDef;
 
 			bool faction = factionDefs.NullOrEmpty() || (pawn.Faction != null && factionDefs.Contains(pawn.Faction.def));
-			return kind && weapon && wearingApparel && xenotype && instigatorThing && race && faction && instigator && (count <= 1 || ++triggeredCount >= count);
+			if (!(kind && weapon && wearingApparel && xenotype && instigatorThing && race && faction && instigator))
+				return false;
+			// Record only the deaths this card counts
+			if (killedThings.Contains(pawn.GetUniqueLoadID()))
+				return false;
+			else
+				killedThings.Add(pawn.GetUniqueLoadID());
+			return count <= 1 || ++triggeredCount >= count;
 		}
 	}
 }
