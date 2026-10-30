@@ -62,7 +62,7 @@ namespace AchievementsExpanded
 		public override bool Trigger(Building building)
 		{
 			base.Trigger(building);
-			if (building.Faction ==  Faction.OfPlayer && (def is null || def == building.def) && (madeFrom is null || madeFrom == building.Stuff) && quality is null || (building.TryGetQuality(out var qc) && qc >= quality))
+			if (building.Faction ==  Faction.OfPlayer && (def is null || def == building.def) && (madeFrom is null || madeFrom == building.Stuff) && (quality is null || (building.TryGetQuality(out var qc) && qc >= quality)))
 			{
 				// Only a card that counts more than one building remembers which ones it has seen
 				if (count > 1 && !registeredBuildings.Add(building.GetUniqueLoadID()))
