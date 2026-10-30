@@ -50,6 +50,11 @@ namespace AchievementsExpanded
 			Scribe_Values.Look(ref triggeredCount, "triggeredCount");
             Scribe_Values.Look(ref quality, "quality");
             Scribe_Collections.Look(ref registeredBuildings, "registeredBuildings");
+            if (Scribe.mode == LoadSaveMode.PostLoadInit && count <= 1)
+            {
+                // A card that needs one building keeps no list, so clear any the save holds
+                registeredBuildings?.Clear();
+            }
 		}
 
 		public override (float percent, string text) PercentComplete => count > 1 ? ((float)triggeredCount / count, $"{triggeredCount} / {count}") : base.PercentComplete;
@@ -57,9 +62,10 @@ namespace AchievementsExpanded
 		public override bool Trigger(Building building)
 		{
 			base.Trigger(building);
-			if (building.Faction ==  Faction.OfPlayer && (def is null || def == building.def) && (madeFrom is null || madeFrom == building.Stuff) && quality is null || (building.TryGetQuality(out var qc) && qc >= quality))
+			if (building.Faction ==  Faction.OfPlayer && (def is null || def == building.def) && (madeFrom is null || madeFrom == building.Stuff) && (quality is null || (building.TryGetQuality(out var qc) && qc >= quality)))
 			{
-				if (!registeredBuildings.Add(building.GetUniqueLoadID()))
+				// Only a card that counts more than one building remembers which ones it has seen
+				if (count > 1 && !registeredBuildings.Add(building.GetUniqueLoadID()))
 				{
 					return false;
 				}

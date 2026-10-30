@@ -31,10 +31,6 @@ namespace AchievementsExpanded
         public override bool Trigger(Pawn pawn, DamageInfo? dinfo)
         {
             //base.Trigger(pawn, dinfo);
-            if (killedThings.Contains(pawn.GetUniqueLoadID()))
-                return false;
-            else
-                killedThings.Add(pawn.GetUniqueLoadID());
             bool instigator = instigatorFactionDefs.NullOrEmpty() || (dinfo?.Instigator?.Faction?.def != null && instigatorFactionDefs.Contains(dinfo.Value.Instigator.Faction.def));
             bool kind = false;
             if (kindDefList != null)
@@ -50,7 +46,13 @@ namespace AchievementsExpanded
 
            
             bool faction = factionDefs.NullOrEmpty() || (pawn.Faction != null && factionDefs.Contains(pawn.Faction.def));
-            return kind &&  faction && instigator && (count <= 1 || ++triggeredCount >= count);
+            if (!(kind && faction && instigator))
+                return false;
+            if (killedThings.Contains(pawn.GetUniqueLoadID()))
+                return false;
+            else
+                killedThings.Add(pawn.GetUniqueLoadID());
+            return count <= 1 || ++triggeredCount >= count;
         }
 
 
