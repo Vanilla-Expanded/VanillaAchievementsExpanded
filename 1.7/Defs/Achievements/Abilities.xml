@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_VeryCapable</defName>
+		<label>Very Capable</label>
+		<description>Get a total of 100 abilities across your colonists. Hard mode: without DLC or mods (can't be done)</description>
+		
+		<tracker Class="AchievementsExpanded.AbilityCountTracker">		
+			<count>100</count>
+			<total>true</total>
+		</tracker>
+		
+		<texPath>Achievements/VAE_VeryCapable</texPath>
+		<points>100</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	
+</Defs>

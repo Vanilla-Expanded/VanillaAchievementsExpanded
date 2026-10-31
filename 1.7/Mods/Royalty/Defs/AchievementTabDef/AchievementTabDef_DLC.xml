@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AchievementsExpanded.AchievementTabDef>
+		<defName>VAE_DLCTab</defName>
+		<label>DLC</label>
+		<order>1</order>
+	</AchievementsExpanded.AchievementTabDef>
+</Defs>

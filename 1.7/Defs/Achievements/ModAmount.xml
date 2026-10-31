@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_BabysFirstMods</defName>
+		<label>Baby’s First Mods</label>
+		<description>Have 10 active mods in a modlist</description>
+		
+		<tracker Class="AchievementsExpanded.ModAmountTracker">
+			<amountOfMods>10</amountOfMods>
+		</tracker>
+		
+		<texPath>Achievements/VAE_BabysFirstMods</texPath>
+		<points>5</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_NoRedErrors</defName>
+		<label>No Red Errors</label>
+		<description>Have 100 active mods in a modlist</description>
+		
+		<tracker Class="AchievementsExpanded.ModAmountTracker">
+			<amountOfMods>100</amountOfMods>
+		</tracker>
+		
+		<texPath>Achievements/VAE_NoRedErrors</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_TheyAreAllQoL</defName>
+		<label>They Are All QoL!</label>
+		<description>Have 500 active mods in a modlist</description>
+		
+		<tracker Class="AchievementsExpanded.ModAmountTracker">
+			<amountOfMods>500</amountOfMods>
+		</tracker>
+		
+		<texPath>Achievements/VAE_TheyAreAllQoL</texPath>
+		<points>75</points>
+	</AchievementsExpanded.AchievementDef>
+</Defs>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_FirstHarvest</defName>
+		<label>First Harvest</label>
+		<description>Harvest 50 corn plants</description>
+		
+		<tracker Class="AchievementsExpanded.PlantTracker">
+			<def>Plant_Corn</def>
+			<count>50</count>
+		</tracker>
+		
+		<texPath>Achievements/VAE_FirstHarvest</texPath>
+		<points>5</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>VAE_FinestCloth</defName>
+		<label>Finest cloth</label>
+		<description>Harvest 100 Devilstrand</description>
+		
+			<tracker Class="AchievementsExpanded.PlantTracker">
+			<def>Plant_Devilstrand</def>
+			<count>100</count>
+		</tracker>
+		
+		<texPath>Achievements/VAE_FinestCloth</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	
+	
+</Defs>

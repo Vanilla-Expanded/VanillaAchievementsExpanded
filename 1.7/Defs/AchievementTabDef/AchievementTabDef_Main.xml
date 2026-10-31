@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AchievementsExpanded.AchievementTabDef>
+		<defName>Main</defName>
+		<label>Main</label>
+		<order>0</order>
+	</AchievementsExpanded.AchievementTabDef>
+	
+	<!-- This tab is hidden normally, and visible in collate mod activated via mod options. Don't add achievements to it -->
+	
+	<AchievementsExpanded.AchievementTabDef>
+		<defName>VAE_ModsTab</defName>
+		<label>Mods</label>
+		<order>2</order>
+	</AchievementsExpanded.AchievementTabDef>
+</Defs>
